@@ -16,9 +16,9 @@
   <facsimile>
     <!-- <graphic url="p2.jpg"/> -->
     <surface xml:id="p2_surf_2" corresp="#p2_fol_2" ulx="0" uly="0" lrx="1064" lry="1600">
-      <graphic url="p2.jpg"/>
-      <zone xml:id="p2_line_2_01" corresp="#p2_lb_2_01" ulx="218" uly="161" lrx="856" lry="221" rend="visible" rendition="Line"/>
-      <zone xml:id="p2_line_2_02" corresp="#p2_lb_2_02" ulx="225" uly="182" lrx="828" lry="249" rend="visible" rendition="Line"/>
+      <graphic height="1600" width="1064" url="data/images/p2.jpg"/>
+      <zone xml:id="p2_line_2_01" corresp="#p2_lb_2_01" ulx="218" uly="151" lrx="856" lry="210" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_02" corresp="#p2_lb_2_02" ulx="225" uly="202" lrx="828" lry="249" rend="visible" rendition="Line"/>
       <zone xml:id="p2_line_2_03" corresp="#p2_lb_2_03" ulx="225" uly="212" lrx="833" lry="277" rend="visible" rendition="Line"/>
       <zone xml:id="p2_line_2_04" corresp="#p2_lb_2_04" ulx="214" uly="238" lrx="834" lry="306" rend="visible" rendition="Line"/>
       <zone xml:id="p2_line_2_05" corresp="#p2_lb_2_05" ulx="216" uly="269" lrx="852" lry="338" rend="visible" rendition="Line"/>
@@ -64,9 +64,50 @@
   <text>
     <body>
       <div type="chapter">
-        <pb n="f. 2" xml:id="p2_fol_2" facs="p2.jpg"/>
+        <pb n="p2" xml:id="p2_fol_2" facs="p2.jpg"/>
         <p>
-          <lb n="1" xml:id="p2_lb_2_01" facs="#p2_line_2_01"/>Pues tomando aliento, chasquea los labio desde la profundidad y<lb n="2" xml:id="p2_lb_2_02" facs="#p2_line_2_02"/>responde al de las nueve formas. Por tanto, en vez<lb n="3" xml:id="p2_lb_2_03" facs="#p2_line_2_03"/>del chasquido de los labios dibuje al cocodrilo con rostro de halcón, pues el primer<lb n="4" xml:id="p2_lb_2_04" facs="#p2_line_2_04"/>rasgo de su nombre es el chasquido de labios. El segundo<lb n="5" xml:id="p2_lb_2_05" facs="#p2_line_2_05"/>es el silbido. Pero antes del silbido dibuje una serpiente mordiéndose<lb n="6" xml:id="p2_lb_2_06" facs="#p2_line_2_06"/>la cola, de manera que el chasquido de los labios y el silbido<lb n="7" xml:id="p2_lb_2_07" facs="#p2_line_2_07"/>sean el cocodrilo con cabeza de halcón y el de las nueve formas<lb n="8" xml:id="p2_lb_2_08" facs="#p2_line_2_08"/>estando encima de él, y alrededor de ellos la serpiente<lb n="9" xml:id="p2_lb_2_09" facs="#p2_line_2_09"/>y las nueve vocales. Los nombres son nueve, antes de los cuales<lb n="10" xml:id="p2_lb_2_10" facs="#p2_line_2_10"/>recite los dioses de las horas con la fórmula inscrita, los del día<lb n="11" xml:id="p2_lb_2_11" facs="#p2_line_2_11"/>y aquellos de ordenados de la semana y su fórmula de coacción.<lb n="12" xml:id="p2_lb_2_12" facs="#p2_line_2_12"/>Pues sin esto el Dios no le escuchará, sino que, como<lb n="13" xml:id="p2_lb_2_13" facs="#p2_line_2_13"/>a un no iniciado, no le admitirá, si no dice<lb n="14" xml:id="p2_lb_2_14" facs="#p2_line_2_14"/>con anterioridad la instrucción* al señor de los días y de las horas con mayor ahínco.<lb n="15" xml:id="p2_lb_2_15" facs="#p2_line_2_15"/>que encuentra al final. Pues, sin estos<lb n="16" xml:id="p2_lb_2_16" facs="#p2_line_2_16"/>no podrá hacer nada de lo que tiene en mi llave.<lb n="17" xml:id="p2_lb_2_17" facs="#p2_line_2_17"/>La inscripción sagrada que es escrita en el natrón es:<lb n="18" xml:id="p2_lb_2_18" facs="#p2_line_2_18"/>Te invococo a ti, de todos el más grande,<lb n="19" xml:id="p2_lb_2_19" facs="#p2_line_2_19"/>creador de todo, a ti autoengendrado, que todo lo ves<lb n="20" xml:id="p2_lb_2_20" facs="#p2_line_2_20"/>sin ser visto. Pues le diste al sol toda gloria y<lb n="21" xml:id="p2_lb_2_21" facs="#p2_line_2_21"/>toda fuerza, a la Luna el pododer crecer y menguar<lb n="22" xml:id="p2_lb_2_22" facs="#p2_line_2_22"/>y tener cursos fijos, sin (para no) sustraer nada de<lb n="23" xml:id="p2_lb_2_23" facs="#p2_line_2_23"/>la obscuridad más antigua, sino que repartiste su igualdad.<lb n="24" xml:id="p2_lb_2_24" facs="#p2_line_2_24"/>Pues cuando apareciste nació el cósmos y la brilló la luz.<lb n="25" xml:id="p2_lb_2_25" facs="#p2_line_2_25"/>Todas las cosas han han sido sometidas a ti, cuya verdadera forma<lb n="26" xml:id="p2_lb_2_26" facs="#p2_line_2_26"/>ninguno de los Dioses puede ver; que adoptas<lb n="27" xml:id="p2_lb_2_27" facs="#p2_line_2_27"/>todas las formas, que eres el invisible Eón de Eónes.<lb n="28" xml:id="p2_lb_2_28" facs="#p2_line_2_28"/>Te invoco señor para que te manifiestes con favorable forma, que sirvo<lb n="29" xml:id="p2_lb_2_29" facs="#p2_line_2_29"/>bajo tu cosmos a tu ángel: Biathiarbar<lb n="30" xml:id="p2_lb_2_30" facs="#p2_line_2_30"/>Berbir Schilatour Bourphoumrom, y<lb n="31" xml:id="p2_lb_2_31" facs="#p2_line_2_31"/>a tu terror Danuf Chrator Belbali Balbith Iao.<lb n="32" xml:id="p2_lb_2_32" facs="#p2_line_2_32"/>A través de ti surgieron el eje celestial y la tierra. Te invoco a ti,<lb n="33" xml:id="p2_lb_2_33" facs="#p2_line_2_33"/>señor, como a los dioses manifestados por ti, para que tengan la fuerza<lb n="34" xml:id="p2_lb_2_34" facs="#p2_line_2_34"/>de Echebukrom Helios, cuya alabanza es aaa eee<lb n="35" xml:id="p2_lb_2_35" facs="#p2_line_2_35"/>ooo iii aaa ooo Sabaoth Arbathiao<lb n="36" xml:id="p2_lb_2_36" facs="#p2_line_2_36"/>zagoure el Dios Arthy Adonaie. Te invoco<lb n="37" xml:id="p2_lb_2_37" facs="#p2_line_2_37"/>a ti, señor, en glifo de pájaros ARAI, en jeroglífico<lb n="38" xml:id="p2_lb_2_38" facs="#p2_line_2_38"/>LAILAM, en hebreo Anoch<lb n="39" xml:id="p2_lb_2_39" facs="#p2_line_2_39"/>Biathiarbath Berbir EXILATOUR BOUFROUMTROM;<lb n="40" xml:id="p2_lb_2_40" facs="#p2_line_2_40"/>en egipcio ALDABAEIM, en glifo del cinocéfalo ABRASAXOU<lb n="41" xml:id="p2_lb_2_41" facs="#p2_line_2_41"/>en halcónico CHI CHI CHI CHI CHI CHI CHI TIF TIF TIF;<lb n="42" xml:id="p2_lb_2_42" facs="#p2_line_2_42"/>en hierático</p>
+          <lb n="1" xml:id="p2_lb_2_01" facs="#p2_line_2_01"/>Pues tomando aliento, chasquea los labio desde la profundidad y
+          <lb n="2" xml:id="p2_lb_2_02" facs="#p2_line_2_02"/>responde al de las nueve formas. Por tanto, en vez
+          <lb n="3" xml:id="p2_lb_2_03" facs="#p2_line_2_03"/>del chasquido de los labios dibuje al cocodrilo con rostro de halcón, pues el primer
+          <lb n="4" xml:id="p2_lb_2_04" facs="#p2_line_2_04"/>rasgo de su nombre es el chasquido de labios. El segundo
+          <lb n="5" xml:id="p2_lb_2_05" facs="#p2_line_2_05"/>es el silbido. Pero antes del silbido dibuje una serpiente mordiéndose
+          <lb n="6" xml:id="p2_lb_2_06" facs="#p2_line_2_06"/>la cola, de manera que el chasquido de los labios y el silbido
+          <lb n="7" xml:id="p2_lb_2_07" facs="#p2_line_2_07"/>sean el cocodrilo con cabeza de halcón y el de las nueve formas
+          <lb n="8" xml:id="p2_lb_2_08" facs="#p2_line_2_08"/>estando encima de él, y alrededor de ellos la serpiente
+          <lb n="9" xml:id="p2_lb_2_09" facs="#p2_line_2_09"/>y las nueve vocales. Los nombres son nueve, antes de los cuales
+          <lb n="10" xml:id="p2_lb_2_10" facs="#p2_line_2_10"/>recite los dioses de las horas con la fórmula inscrita, los del día
+          <lb n="11" xml:id="p2_lb_2_11" facs="#p2_line_2_11"/>y aquellos de ordenados de la semana y su fórmula de coacción.
+          <lb n="12" xml:id="p2_lb_2_12" facs="#p2_line_2_12"/>Pues sin esto el Dios no le escuchará, sino que, como
+          <lb n="13" xml:id="p2_lb_2_13" facs="#p2_line_2_13"/>a un no iniciado, no le admitirá, si no dice
+          <lb n="14" xml:id="p2_lb_2_14" facs="#p2_line_2_14"/>con anterioridad la instrucción* al señor de los días y de las horas con mayor ahínco.
+          <lb n="15" xml:id="p2_lb_2_15" facs="#p2_line_2_15"/>que encuentra al final. Pues, sin estos
+          <lb n="16" xml:id="p2_lb_2_16" facs="#p2_line_2_16"/>no podrá hacer nada de lo que tiene en mi llave.
+          <lb n="17" xml:id="p2_lb_2_17" facs="#p2_line_2_17"/>La inscripción sagrada que es escrita en el natrón es:
+          <lb n="18" xml:id="p2_lb_2_18" facs="#p2_line_2_18"/>Te invococo a ti, de todos el más grande,
+          <lb n="19" xml:id="p2_lb_2_19" facs="#p2_line_2_19"/>creador de todo, a ti autoengendrado, que todo lo ves
+          <lb n="20" xml:id="p2_lb_2_20" facs="#p2_line_2_20"/>sin ser visto. Pues le diste al sol toda gloria y
+          <lb n="21" xml:id="p2_lb_2_21" facs="#p2_line_2_21"/>toda fuerza, a la Luna el pododer crecer y menguar
+          <lb n="22" xml:id="p2_lb_2_22" facs="#p2_line_2_22"/>y tener cursos fijos, sin (para no) sustraer nada de
+          <lb n="23" xml:id="p2_lb_2_23" facs="#p2_line_2_23"/>la obscuridad más antigua, sino que repartiste su igualdad.
+          <lb n="24" xml:id="p2_lb_2_24" facs="#p2_line_2_24"/>Pues cuando apareciste nació el cósmos y la brilló la luz.
+          <lb n="25" xml:id="p2_lb_2_25" facs="#p2_line_2_25"/>Todas las cosas han han sido sometidas a ti, cuya verdadera forma
+          <lb n="26" xml:id="p2_lb_2_26" facs="#p2_line_2_26"/>ninguno de los Dioses puede ver; que adoptas
+          <lb n="27" xml:id="p2_lb_2_27" facs="#p2_line_2_27"/>todas las formas, que eres el invisible Eón de Eónes.
+          <lb n="28" xml:id="p2_lb_2_28" facs="#p2_line_2_28"/>Te invoco señor para que te manifiestes con favorable forma, que sirvo
+          <lb n="29" xml:id="p2_lb_2_29" facs="#p2_line_2_29"/>bajo tu cosmos a tu ángel: Biathiarbar
+          <lb n="30" xml:id="p2_lb_2_30" facs="#p2_line_2_30"/>Berbir Schilatour Bourphoumrom, y
+          <lb n="31" xml:id="p2_lb_2_31" facs="#p2_line_2_31"/>a tu terror Danuf Chrator Belbali Balbith Iao.
+          <lb n="32" xml:id="p2_lb_2_32" facs="#p2_line_2_32"/>A través de ti surgieron el eje celestial y la tierra. Te invoco a ti,
+          <lb n="33" xml:id="p2_lb_2_33" facs="#p2_line_2_33"/>señor, como a los dioses manifestados por ti, para que tengan la fuerza
+          <lb n="34" xml:id="p2_lb_2_34" facs="#p2_line_2_34"/>de Echebukrom Helios, cuya alabanza es aaa eee
+          <lb n="35" xml:id="p2_lb_2_35" facs="#p2_line_2_35"/>ooo iii aaa ooo Sabaoth Arbathiao
+          <lb n="36" xml:id="p2_lb_2_36" facs="#p2_line_2_36"/>zagoure el Dios Arthy Adonaie. Te invoco
+          <lb n="37" xml:id="p2_lb_2_37" facs="#p2_line_2_37"/>a ti, señor, en glifo de pájaros ARAI, en jeroglífico
+          <lb n="38" xml:id="p2_lb_2_38" facs="#p2_line_2_38"/>LAILAM, en hebreo Anoch
+          <lb n="39" xml:id="p2_lb_2_39" facs="#p2_line_2_39"/>Biathiarbath Berbir EXILATOUR BOUFROUMTROM;
+          <lb n="40" xml:id="p2_lb_2_40" facs="#p2_line_2_40"/>en egipcio ALDABAEIM, en glifo del cinocéfalo ABRASAXOU
+          <lb n="41" xml:id="p2_lb_2_41" facs="#p2_line_2_41"/>en halcónico CHI CHI CHI CHI CHI CHI CHI TIF TIF TIF;
+          <lb n="42" xml:id="p2_lb_2_42" facs="#p2_line_2_42"/>en hierático</p>
         <p/>
       </div>
     </body>
