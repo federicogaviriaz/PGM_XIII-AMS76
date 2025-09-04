@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PGMXIII p1</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Transformación automática desde PAGE XML</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Manuscrito AMS76, p 1</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- <graphic url="p1.jpg"> -->
+    <surface xml:id="trad1_surf_1" corresp="#trad1_fol_1" ulx="0" uly="0" lrx="1072" lry="1600">
+      <graphic url="p1.jpg"/>
+      <zone xml:id="trad1_line_1_01" corresp="#trad1_lb_1_01" ulx="186" uly="172" lrx="240" lry="206" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_02" corresp="#trad1_lb_1_02" ulx="183" uly="197" lrx="239" lry="236" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_03" corresp="#trad1_lb_1_03" ulx="197" uly="192" lrx="821" lry="262" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_04" corresp="#trad1_lb_1_04" ulx="206" uly="224" lrx="845" lry="293" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_05" corresp="#trad1_lb_1_05" ulx="198" uly="258" lrx="840" lry="320" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_06" corresp="#trad1_lb_1_06" ulx="206" uly="285" lrx="848" lry="345" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_07" corresp="#trad1_lb_1_07" ulx="201" uly="321" lrx="845" lry="376" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_08" corresp="#trad1_lb_1_08" ulx="201" uly="351" lrx="833" lry="403" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_09" corresp="#trad1_lb_1_09" ulx="202" uly="382" lrx="836" lry="432" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_10" corresp="#trad1_lb_1_10" ulx="202" uly="413" lrx="826" lry="458" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_11" corresp="#trad1_lb_1_11" ulx="219" uly="440" lrx="828" lry="486" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_12" corresp="#trad1_lb_1_12" ulx="211" uly="468" lrx="851" lry="510" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_13" corresp="#trad1_lb_1_13" ulx="213" uly="499" lrx="859" lry="536" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_14" corresp="#trad1_lb_1_14" ulx="196" uly="523" lrx="860" lry="559" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_15" corresp="#trad1_lb_1_15" ulx="208" uly="551" lrx="857" lry="589" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_16" corresp="#trad1_lb_1_16" ulx="209" uly="580" lrx="848" lry="617" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_17" corresp="#trad1_lb_1_17" ulx="209" uly="606" lrx="848" lry="642" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_18" corresp="#trad1_lb_1_18" ulx="208" uly="635" lrx="860" lry="672" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_19" corresp="#trad1_lb_1_19" ulx="224" uly="651" lrx="844" lry="700" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_20" corresp="#trad1_lb_1_20" ulx="224" uly="677" lrx="855" lry="728" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_21" corresp="#trad1_lb_1_21" ulx="214" uly="702" lrx="832" lry="757" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_22" corresp="#trad1_lb_1_22" ulx="217" uly="728" lrx="801" lry="783" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_23" corresp="#trad1_lb_1_23" ulx="213" uly="753" lrx="828" lry="813" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_24" corresp="#trad1_lb_1_24" ulx="214" uly="781" lrx="828" lry="840" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_25" corresp="#trad1_lb_1_25" ulx="214" uly="800" lrx="826" lry="872" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_26" corresp="#trad1_lb_1_26" ulx="216" uly="832" lrx="814" lry="892" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_27" corresp="#trad1_lb_1_27" ulx="219" uly="856" lrx="822" lry="917" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_28" corresp="#trad1_lb_1_28" ulx="220" uly="882" lrx="826" lry="946" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_29" corresp="#trad1_lb_1_29" ulx="225" uly="910" lrx="833" lry="972" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_30" corresp="#trad1_lb_1_30" ulx="221" uly="934" lrx="821" lry="994" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_31" corresp="#trad1_lb_1_31" ulx="228" uly="960" lrx="822" lry="1018" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_32" corresp="#trad1_lb_1_32" ulx="228" uly="988" lrx="822" lry="1045" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_33" corresp="#trad1_lb_1_33" ulx="227" uly="1019" lrx="837" lry="1074" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_34" corresp="#trad1_lb_1_34" ulx="227" uly="1042" lrx="834" lry="1103" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_35" corresp="#trad1_lb_1_35" ulx="224" uly="1072" lrx="844" lry="1125" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_36" corresp="#trad1_lb_1_36" ulx="232" uly="1098" lrx="848" lry="1152" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_37" corresp="#trad1_lb_1_37" ulx="228" uly="1124" lrx="854" lry="1182" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_38" corresp="#trad1_lb_1_38" ulx="234" uly="1154" lrx="844" lry="1198" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_39" corresp="#trad1_lb_1_39" ulx="230" uly="1177" lrx="873" lry="1222" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_40" corresp="#trad1_lb_1_40" ulx="230" uly="1205" lrx="848" lry="1249" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_41" corresp="#trad1_lb_1_41" ulx="233" uly="1228" lrx="869" lry="1281" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_42" corresp="#trad1_lb_1_42" ulx="233" uly="1253" lrx="840" lry="1305" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_43" corresp="#trad1_lb_1_43" ulx="235" uly="1278" lrx="862" lry="1334" rend="visible" rendition="Line"/>
+      <zone xml:id="trad1_line_1_44" corresp="#trad1_lb_1_44" ulx="240" uly="1309" lrx="866" lry="1371" rend="visible" rendition="Line"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter">
+        <pb n="f. 1" xml:id="trad1_fol_1" facs="p2.jpg"/>
+        <p>
+          <lb n="1" xml:id="trad1_lb_1_01" facs="#trad1_line_1_01"/>Dios<lb n="2" xml:id="trad1_lb_1_02" facs="#trad1_line_1_02"/>Dioses<lb n="3" xml:id="trad1_lb_1_03" facs="#trad1_line_1_03"/>Un libro sagrado llamado "La mónada" u "Octavo libro de Moisés"<lb n="4" xml:id="trad1_lb_1_04" facs="#trad1_line_1_04"/>acerca del Nombre santo. Contiene lo siguiente: permanezca casto<lb n="5" xml:id="trad1_lb_1_05" facs="#trad1_line_1_05"/>por 41 días, calculando que terminen en el (sínodo)<lb n="6" xml:id="trad1_lb_1_06" facs="#trad1_line_1_06"/>del tiempo de Aries. Tenga una casa al nivel del suelo en<lb n="7" xml:id="trad1_lb_1_07" facs="#trad1_line_1_07"/>la que en en el último año no haya muerto nadie. La puerta mirando a oriente.<lb n="8" xml:id="trad1_lb_1_08" facs="#trad1_line_1_08"/>Erija una altar de tierra en el medio de la casa<lb n="9" xml:id="trad1_lb_1_09" facs="#trad1_line_1_09"/>y aliste maderas de ciprés, diez estróbilos maduros, dos<lb n="10" xml:id="trad1_lb_1_10" facs="#trad1_line_1_10"/>gallinas blancas sin daño ni manchas, y también dos lámparas<lb n="11" xml:id="trad1_lb_1_11" facs="#trad1_line_1_11"/>llenas en una cuarta parte con un buen aceite, sin vertir nada<lb n="12" xml:id="trad1_lb_1_12" facs="#trad1_line_1_12"/>mas en ellas, pues cuando llegue el Dios arderan de manera excesiva.<lb n="13" xml:id="trad1_lb_1_13" facs="#trad1_line_1_13"/>Aliste la mesa con los siguientes inciensos<lb n="14" xml:id="trad1_lb_1_14" facs="#trad1_line_1_14"/>que (corresponden) con el Dios. (Plagiando<lb n="15" xml:id="trad1_lb_1_15" facs="#trad1_line_1_15"/>de este libro Hermes da cuenta de los (7) inciensos<lb n="16" xml:id="trad1_lb_1_16" facs="#trad1_line_1_16"/>en su libro sagrado llamado "La Ala").<lb n="17" xml:id="trad1_lb_1_17" facs="#trad1_line_1_17"/>1) De cronos, el estoraque, pues es pesado y fragante. 2) De Zeus,<lb n="18" xml:id="trad1_lb_1_18" facs="#trad1_line_1_18"/>el laurel. 3) De Ares, el (costo). 4) De Helio, el olíbano.<lb n="19" xml:id="trad1_lb_1_19" facs="#trad1_line_1_19"/>5) De Afrodita, el nardo indio. 6)De Hermes, la casia.<lb n="20" xml:id="trad1_lb_1_20" facs="#trad1_line_1_20"/>7) de Selene, la mirra. Esos son los incienzos secretos.<lb n="21" xml:id="trad1_lb_1_21" facs="#trad1_line_1_21"/>Esto dice en la llave de Moisés*: "Prepare (Yero solar)<lb n="22" xml:id="trad1_lb_1_22" facs="#trad1_line_1_22"/>para cada ocasión (así llama al haba de Egipto).<lb n="23" xml:id="trad1_lb_1_23" facs="#trad1_line_1_23"/>Y así indicaba Manetón en su libro:<lb n="24" xml:id="trad1_lb_1_24" facs="#trad1_line_1_24"/>(cita larga)Tome las 7 flores de los 7 astros, que son: Mejorana,<lb n="25" xml:id="trad1_lb_1_25" facs="#trad1_line_1_25"/>(auzucena), Loto, (Herephyllinon), narciso,<lb n="26" xml:id="trad1_lb_1_26" facs="#trad1_line_1_26"/>Alhelí y Rosa. Triture estas flores ventiún días<lb n="27" xml:id="trad1_lb_1_27" facs="#trad1_line_1_27"/>antes de la iniciación en un mortero<lb n="28" xml:id="trad1_lb_1_28" facs="#trad1_line_1_28"/>blanco, séquelas a la sombra y téngalas listas<lb n="29" xml:id="trad1_lb_1_29" facs="#trad1_line_1_29"/>para aquel día. |Pero primero, encomiéndese<lb n="30" xml:id="trad1_lb_1_30" facs="#trad1_line_1_30"/>a los dioses que corresponden a las horas del día bajo la luna nueva de la naturaleza del Dios<lb n="31" xml:id="trad1_lb_1_31" facs="#trad1_line_1_31"/>(que tiene en la 'Llave'.) Conságrese de la siguiente manera:<lb n="32" xml:id="trad1_lb_1_32" facs="#trad1_line_1_32"/>De harina de Trigo fina haga tres figuras: una con rostro de toro,<lb n="33" xml:id="trad1_lb_1_33" facs="#trad1_line_1_33"/>otra de macho cabrío y la última de carnero., cada una de ellas<lb n="34" xml:id="trad1_lb_1_34" facs="#trad1_line_1_34"/>de pie sobre un eje sosteniendo látigos egipcios,<lb n="35" xml:id="trad1_lb_1_35" facs="#trad1_line_1_35"/>e incensadas devórelas diciendo el hechizo de los dioses que corresponden a las horas<lb n="36" xml:id="trad1_lb_1_36" facs="#trad1_line_1_36"/>(que tiene en la 'Llave'), así como aquel que los comanda,<lb n="37" xml:id="trad1_lb_1_37" facs="#trad1_line_1_37"/>y la lista de los Dioses que corrensponden a las semanas, y será consagrado a ellos.<lb n="38" xml:id="trad1_lb_1_38" facs="#trad1_line_1_38"/>Ahora, para el (encuentro general) tenga un cuadrado de natron<lb n="39" xml:id="trad1_lb_1_39" facs="#trad1_line_1_39"/>en donde escribirá el gan Nombre con siete (sonidos).<lb n="40" xml:id="trad1_lb_1_40" facs="#trad1_line_1_40"/>En vez de un chasquido con los labios o un siseo, escriba en el medio<lb n="41" xml:id="trad1_lb_1_41" facs="#trad1_line_1_41"/>del natron un cocodrilo con rostro de halcón y<lb n="42" xml:id="trad1_lb_1_42" facs="#trad1_line_1_42"/>estando sobre él el de las nueve formas, pues el cocodrilo<lb n="43" xml:id="trad1_lb_1_43" facs="#trad1_line_1_43"/>con rostro de halcón saluda al dios en los cuatro equinoxios<lb n="44" xml:id="trad1_lb_1_44" facs="#trad1_line_1_44"/>con el chasquido de los labios.</p>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

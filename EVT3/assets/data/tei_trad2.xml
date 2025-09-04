@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcripción del manuscrito p2, folio 2</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Transformación automática desde PAGE XML</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Manuscrito p2, folio 2</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <!-- <graphic url="p2.jpg"/> -->
+    <surface xml:id="p2_surf_2" corresp="#p2_fol_2" ulx="0" uly="0" lrx="1064" lry="1600">
+      <graphic url="p2.jpg"/>
+      <zone xml:id="p2_line_2_01" corresp="#p2_lb_2_01" ulx="218" uly="161" lrx="856" lry="221" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_02" corresp="#p2_lb_2_02" ulx="225" uly="182" lrx="828" lry="249" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_03" corresp="#p2_lb_2_03" ulx="225" uly="212" lrx="833" lry="277" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_04" corresp="#p2_lb_2_04" ulx="214" uly="238" lrx="834" lry="306" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_05" corresp="#p2_lb_2_05" ulx="216" uly="269" lrx="852" lry="338" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_06" corresp="#p2_lb_2_06" ulx="221" uly="296" lrx="828" lry="369" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_07" corresp="#p2_lb_2_07" ulx="212" uly="320" lrx="817" lry="400" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_08" corresp="#p2_lb_2_08" ulx="209" uly="352" lrx="756" lry="425" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_09" corresp="#p2_lb_2_09" ulx="210" uly="377" lrx="825" lry="458" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_10" corresp="#p2_lb_2_10" ulx="214" uly="409" lrx="844" lry="486" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_11" corresp="#p2_lb_2_11" ulx="209" uly="433" lrx="848" lry="526" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_12" corresp="#p2_lb_2_12" ulx="209" uly="465" lrx="838" lry="546" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_13" corresp="#p2_lb_2_13" ulx="212" uly="490" lrx="825" lry="570" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_14" corresp="#p2_lb_2_14" ulx="213" uly="521" lrx="806" lry="596" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_15" corresp="#p2_lb_2_15" ulx="213" uly="546" lrx="850" lry="625" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_16" corresp="#p2_lb_2_16" ulx="209" uly="574" lrx="854" lry="648" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_17" corresp="#p2_lb_2_17" ulx="190" uly="589" lrx="840" lry="676" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_18" corresp="#p2_lb_2_18" ulx="213" uly="624" lrx="836" lry="701" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_19" corresp="#p2_lb_2_19" ulx="210" uly="644" lrx="828" lry="724" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_20" corresp="#p2_lb_2_20" ulx="208" uly="670" lrx="837" lry="752" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_21" corresp="#p2_lb_2_21" ulx="204" uly="692" lrx="844" lry="788" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_22" corresp="#p2_lb_2_22" ulx="198" uly="717" lrx="840" lry="810" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_23" corresp="#p2_lb_2_23" ulx="196" uly="746" lrx="861" lry="849" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_24" corresp="#p2_lb_2_24" ulx="194" uly="769" lrx="858" lry="868" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_25" corresp="#p2_lb_2_25" ulx="194" uly="797" lrx="856" lry="897" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_26" corresp="#p2_lb_2_26" ulx="197" uly="830" lrx="868" lry="924" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_27" corresp="#p2_lb_2_27" ulx="198" uly="862" lrx="864" lry="948" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_28" corresp="#p2_lb_2_28" ulx="202" uly="896" lrx="832" lry="974" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_29" corresp="#p2_lb_2_29" ulx="202" uly="926" lrx="774" lry="992" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_30" corresp="#p2_lb_2_30" ulx="246" uly="966" lrx="844" lry="1029" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_31" corresp="#p2_lb_2_31" ulx="174" uly="982" lrx="856" lry="1065" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_32" corresp="#p2_lb_2_32" ulx="198" uly="1017" lrx="844" lry="1090" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_33" corresp="#p2_lb_2_33" ulx="165" uly="1038" lrx="861" lry="1121" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_34" corresp="#p2_lb_2_34" ulx="299" uly="1084" lrx="765" lry="1136" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_35" corresp="#p2_lb_2_35" ulx="294" uly="1102" lrx="854" lry="1170" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_36" corresp="#p2_lb_2_36" ulx="189" uly="1144" lrx="873" lry="1224" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_37" corresp="#p2_lb_2_37" ulx="290" uly="1129" lrx="865" lry="1197" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_38" corresp="#p2_lb_2_38" ulx="182" uly="1173" lrx="782" lry="1248" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_39" corresp="#p2_lb_2_39" ulx="205" uly="1205" lrx="861" lry="1284" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_40" corresp="#p2_lb_2_40" ulx="184" uly="1234" lrx="869" lry="1317" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_41" corresp="#p2_lb_2_41" ulx="188" uly="1270" lrx="828" lry="1364" rend="visible" rendition="Line"/>
+      <zone xml:id="p2_line_2_42" corresp="#p2_lb_2_42" ulx="192" uly="1310" lrx="352" lry="1381" rend="visible" rendition="Line"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="chapter">
+        <pb n="f. 2" xml:id="p2_fol_2" facs="p2.jpg"/>
+        <p>
+          <lb n="1" xml:id="p2_lb_2_01" facs="#p2_line_2_01"/>Pues tomando aliento, chasquea los labio desde la profundidad y<lb n="2" xml:id="p2_lb_2_02" facs="#p2_line_2_02"/>responde al de las nueve formas. Por tanto, en vez<lb n="3" xml:id="p2_lb_2_03" facs="#p2_line_2_03"/>del chasquido de los labios dibuje al cocodrilo con rostro de halcón, pues el primer<lb n="4" xml:id="p2_lb_2_04" facs="#p2_line_2_04"/>rasgo de su nombre es el chasquido de labios. El segundo<lb n="5" xml:id="p2_lb_2_05" facs="#p2_line_2_05"/>es el silbido. Pero antes del silbido dibuje una serpiente mordiéndose<lb n="6" xml:id="p2_lb_2_06" facs="#p2_line_2_06"/>la cola, de manera que el chasquido de los labios y el silbido<lb n="7" xml:id="p2_lb_2_07" facs="#p2_line_2_07"/>sean el cocodrilo con cabeza de halcón y el de las nueve formas<lb n="8" xml:id="p2_lb_2_08" facs="#p2_line_2_08"/>estando encima de él, y alrededor de ellos la serpiente<lb n="9" xml:id="p2_lb_2_09" facs="#p2_line_2_09"/>y las nueve vocales. Los nombres son nueve, antes de los cuales<lb n="10" xml:id="p2_lb_2_10" facs="#p2_line_2_10"/>recite los dioses de las horas con la fórmula inscrita, los del día<lb n="11" xml:id="p2_lb_2_11" facs="#p2_line_2_11"/>y aquellos de ordenados de la semana y su fórmula de coacción.<lb n="12" xml:id="p2_lb_2_12" facs="#p2_line_2_12"/>Pues sin esto el Dios no le escuchará, sino que, como<lb n="13" xml:id="p2_lb_2_13" facs="#p2_line_2_13"/>a un no iniciado, no le admitirá, si no dice<lb n="14" xml:id="p2_lb_2_14" facs="#p2_line_2_14"/>con anterioridad la instrucción* al señor de los días y de las horas con mayor ahínco.<lb n="15" xml:id="p2_lb_2_15" facs="#p2_line_2_15"/>que encuentra al final. Pues, sin estos<lb n="16" xml:id="p2_lb_2_16" facs="#p2_line_2_16"/>no podrá hacer nada de lo que tiene en mi llave.<lb n="17" xml:id="p2_lb_2_17" facs="#p2_line_2_17"/>La inscripción sagrada que es escrita en el natrón es:<lb n="18" xml:id="p2_lb_2_18" facs="#p2_line_2_18"/>Te invococo a ti, de todos el más grande,<lb n="19" xml:id="p2_lb_2_19" facs="#p2_line_2_19"/>creador de todo, a ti autoengendrado, que todo lo ves<lb n="20" xml:id="p2_lb_2_20" facs="#p2_line_2_20"/>sin ser visto. Pues le diste al sol toda gloria y<lb n="21" xml:id="p2_lb_2_21" facs="#p2_line_2_21"/>toda fuerza, a la Luna el pododer crecer y menguar<lb n="22" xml:id="p2_lb_2_22" facs="#p2_line_2_22"/>y tener cursos fijos, sin (para no) sustraer nada de<lb n="23" xml:id="p2_lb_2_23" facs="#p2_line_2_23"/>la obscuridad más antigua, sino que repartiste su igualdad.<lb n="24" xml:id="p2_lb_2_24" facs="#p2_line_2_24"/>Pues cuando apareciste nació el cósmos y la brilló la luz.<lb n="25" xml:id="p2_lb_2_25" facs="#p2_line_2_25"/>Todas las cosas han han sido sometidas a ti, cuya verdadera forma<lb n="26" xml:id="p2_lb_2_26" facs="#p2_line_2_26"/>ninguno de los Dioses puede ver; que adoptas<lb n="27" xml:id="p2_lb_2_27" facs="#p2_line_2_27"/>todas las formas, que eres el invisible Eón de Eónes.<lb n="28" xml:id="p2_lb_2_28" facs="#p2_line_2_28"/>Te invoco señor para que te manifiestes con favorable forma, que sirvo<lb n="29" xml:id="p2_lb_2_29" facs="#p2_line_2_29"/>bajo tu cosmos a tu ángel: Biathiarbar<lb n="30" xml:id="p2_lb_2_30" facs="#p2_line_2_30"/>Berbir Schilatour Bourphoumrom, y<lb n="31" xml:id="p2_lb_2_31" facs="#p2_line_2_31"/>a tu terror Danuf Chrator Belbali Balbith Iao.<lb n="32" xml:id="p2_lb_2_32" facs="#p2_line_2_32"/>A través de ti surgieron el eje celestial y la tierra. Te invoco a ti,<lb n="33" xml:id="p2_lb_2_33" facs="#p2_line_2_33"/>señor, como a los dioses manifestados por ti, para que tengan la fuerza<lb n="34" xml:id="p2_lb_2_34" facs="#p2_line_2_34"/>de Echebukrom Helios, cuya alabanza es aaa eee<lb n="35" xml:id="p2_lb_2_35" facs="#p2_line_2_35"/>ooo iii aaa ooo Sabaoth Arbathiao<lb n="36" xml:id="p2_lb_2_36" facs="#p2_line_2_36"/>zagoure el Dios Arthy Adonaie. Te invoco<lb n="37" xml:id="p2_lb_2_37" facs="#p2_line_2_37"/>a ti, señor, en glifo de pájaros ARAI, en jeroglífico<lb n="38" xml:id="p2_lb_2_38" facs="#p2_line_2_38"/>LAILAM, en hebreo Anoch<lb n="39" xml:id="p2_lb_2_39" facs="#p2_line_2_39"/>Biathiarbath Berbir EXILATOUR BOUFROUMTROM;<lb n="40" xml:id="p2_lb_2_40" facs="#p2_line_2_40"/>en egipcio ALDABAEIM, en glifo del cinocéfalo ABRASAXOU<lb n="41" xml:id="p2_lb_2_41" facs="#p2_line_2_41"/>en halcónico CHI CHI CHI CHI CHI CHI CHI TIF TIF TIF;<lb n="42" xml:id="p2_lb_2_42" facs="#p2_line_2_42"/>en hierático</p>
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

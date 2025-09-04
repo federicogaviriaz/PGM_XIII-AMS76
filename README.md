@@ -6,8 +6,8 @@ Este trabajo se realiza bajo la dirección del profesor Juan Felipe González Ca
 
 ## Estructura y progreso
 
-* ./EVT3 -> Copia del proyecto [EVT3](https://github.com/orgfrederiquemarechal/evt-3.0_archestratus). Mediante el cual se realizará la visualización de los archivos TEI-XML.
-* ./EVT3/assets/data/texts -> Documentos bajo el estándar TEI listos para la visualización.
+* ./EVT3 -> Copia del proyecto [EVT3](https://github.com/evt-project/evt-viewer-angular). Mediante el cual se realizará la visualización de los archivos TEI-XML.
+* ./EVT3/assets/data -> Documentos bajo el estándar TEI listos para la visualización.
 * ./EVT3/assets/data/images -> Fotografías del papiro
 
 ### Progreso
