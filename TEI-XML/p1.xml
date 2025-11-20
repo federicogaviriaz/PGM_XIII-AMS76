@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>PGMXIII - Edición diplomática. p.1</title>
+        <author>Anonymous</author>
+        <editor>Rober W. Daniel</editor>
+        <respStmt>
+          <resp>Preparación de la Edición digital y marcación XML-TEI</resp>
+          <name>Federico Gaviria Zambrano</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Diplomatic edition</edition>
+        <respStmt>
+          <resp>editor of diplomatic edition</resp>
+          <name>Rober W. Daniel</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Springer Fachmedien Wiesbaden GMBH</publisher>
+        <date>1991</date>
+        <p>Unpublished digital derivation for research and display.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Paises Bajos</country>
+            <settlement>Amsterdam</settlement>
+            <institution>Rijksmuseum</institution>
+            <repository>https://www.rmo.nl/en/collection/search-collection/collection-piece/?object=18783</repository>
+            <collection>Papyri Graecae Magicae</collection>
+            <idno type="oldCatalog">J395</idno>
+            <idno type="museumNew">AMS76</idno>
+            <idno type="siglum">PGM XIII</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <foliation>Numbered as “3r” in the current collection.</foliation>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace>
+                <placeName>Egipto</placeName>
+              </origPlace>
+              <origDate notBefore="306-337" notAfter="306-337">1st c. BCE–4th c. CE</origDate>
+            </origin>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Converted from PAGE-XML; inline choices for abbreviations and corrections, semantic numbers, and highlighted styling.</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>Automated conversion with preservation of PAGE custom annotations.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="3r" xml:id="p1" type="recto">
+      <graphic url="102551426.jpg" width="2479" height="3508"/>
+      <zone type="TextRegion" xml:id="z_tr_1" points="346,302 346,3374 2134,3374 2134,302"/>
+      <zone type="line" xml:id="z_tr_1_tl_3" points="586,455 597,452 606,461 689,457 686,410 662,410 653,406 635,412 620,397 615,401 584,403"/>
+      <zone type="line" xml:id="z_tr_1_tl_5" points="584,506 595,506 606,517 678,515 678,479 640,479 624,464 584,464"/>
+      <zone type="line" xml:id="z_tr_1_tl_6" points="635,586 1547,579 1547,533 1333,517 635,517"/>
+      <zone type="line" xml:id="z_tr_1_tl_7" points="629,626 1663,637 1663,586 629,593"/>
+      <zone type="line" xml:id="z_tr_1_tl_8" points="591,675 631,700 1569,693 1569,644 591,649"/>
+      <zone type="line" xml:id="z_tr_1_tl_9" points="631,747 1589,749 1589,709 1375,691 631,704"/>
+      <zone type="line" xml:id="z_tr_1_tl_10" points="635,802 1643,807 1643,762 1536,753 635,769"/>
+      <zone type="line" xml:id="z_tr_1_tl_11" points="640,876 1210,851 1545,876 1645,865 1645,825 637,809"/>
+      <zone type="line" xml:id="z_tr_1_tl_12" points="633,923 1696,925 1694,885 1605,869 631,878"/>
+      <zone type="line" xml:id="z_tr_1_tl_13" points="640,990 1656,981 1656,945 1549,925 640,949"/>
+      <zone type="line" xml:id="z_tr_1_tl_15" points="631,1023 1368,1034 1415,1061 1565,1039 1565,994 631,1007"/>
+      <zone type="line" xml:id="z_tr_1_tl_16" points="640,1094 1585,1101 1585,1054 1551,1045 640,1059"/>
+      <zone type="line" xml:id="z_tr_1_tl_17" points="642,1154 1576,1157 1573,1114 1493,1103 640,1112"/>
+      <zone type="line" xml:id="z_tr_1_tl_18" points="635,1212 1609,1219 1609,1161 635,1186"/>
+      <zone type="line" xml:id="z_tr_1_tl_19" points="646,1282 1580,1275 1553,1228 646,1221"/>
+      <zone type="line" xml:id="z_tr_1_tl_21" points="637,1328 1582,1335 1582,1295 1502,1286 637,1295"/>
+      <zone type="line" xml:id="z_tr_1_tl_22" points="640,1391 1636,1389 1636,1351 1585,1335 640,1344"/>
+      <zone type="line" xml:id="z_tr_1_tl_23" points="651,1451 1652,1442 1652,1400 1565,1389 651,1409"/>
+      <zone type="line" xml:id="z_tr_1_tl_24" points="635,1493 1594,1500 1594,1464 1362,1469 1333,1444 635,1471"/>
+      <zone type="line" xml:id="z_tr_1_tl_25" points="631,1545 686,1571 1594,1565 1594,1509 1101,1527 778,1500 631,1529"/>
+      <zone type="line" xml:id="z_tr_1_tl_27" points="640,1618 1611,1620 1594,1580 640,1585"/>
+      <zone type="line" xml:id="z_tr_1_tl_28" points="637,1672 1516,1678 1516,1640 1422,1623 753,1640 718,1620 637,1645"/>
+      <zone type="line" xml:id="z_tr_1_tl_29" points="637,1736 1672,1738 1638,1687 635,1696"/>
+      <zone type="line" xml:id="z_tr_1_tl_30" points="644,1803 1660,1796 1634,1752 644,1743"/>
+      <zone type="line" xml:id="z_tr_1_tl_31" points="637,1843 1495,1854 1478,1812 1250,1801 934,1816 903,1790 865,1816 637,1819"/>
+      <zone type="line" xml:id="z_tr_1_tl_33" points="637,1914 1549,1917 1549,1872 1326,1852 637,1874"/>
+      <zone type="line" xml:id="z_tr_1_tl_34" points="651,1979 1442,1970 1442,1935 1386,1919 651,1935"/>
+      <zone type="line" xml:id="z_tr_1_tl_35" points="631,2019 847,2021 878,2050 1063,2021 1246,2050 1627,2030 1627,1993 1070,1999 909,1972 631,2001"/>
+      <zone type="line" xml:id="z_tr_1_tl_36" points="631,2071 691,2095 1027,2073 1533,2102 1533,2044 1500,2042 631,2053"/>
+      <zone type="line" xml:id="z_tr_1_tl_37" points="640,2146 1591,2149 1571,2099 640,2091"/>
+      <zone type="line" xml:id="z_tr_1_tl_39" points="644,2204 1616,2204 1616,2162 644,2149"/>
+      <zone type="line" xml:id="z_tr_1_tl_40" points="637,2255 1549,2260 1549,2224 1297,2206 637,2224"/>
+      <zone type="line" xml:id="z_tr_1_tl_41" points="631,2313 1005,2336 1473,2313 1580,2340 1580,2269 733,2284 689,2260 631,2284"/>
+      <zone type="line" xml:id="z_tr_1_tl_42" points="644,2380 1594,2380 1594,2345 1556,2336 644,2336"/>
+      <zone type="line" xml:id="z_tr_1_tl_43" points="631,2425 1692,2449 1692,2398 629,2398"/>
+      <zone type="line" xml:id="z_tr_1_tl_45" points="631,2481 981,2514 1081,2485 1678,2498 1678,2443 1634,2440 631,2465"/>
+      <zone type="line" xml:id="z_tr_1_tl_46" points="635,2552 1562,2556 1562,2507 635,2507"/>
+      <zone type="line" xml:id="z_tr_1_tl_47" points="635,2608 1547,2610 1547,2559 635,2565"/>
+      <zone type="line" xml:id="z_tr_1_tl_48" points="644,2674 1750,2668 1747,2617 642,2612"/>
+      <zone type="line" xml:id="z_tr_1_tl_49" points="631,2717 1602,2732 1582,2681 631,2697"/>
+      <zone type="line" xml:id="z_tr_1_tl_51" points="640,2779 1580,2788 1580,2744 1536,2741 640,2746"/>
+      <zone type="line" xml:id="z_tr_1_tl_52" points="631,2833 1594,2846 1594,2795 631,2810"/>
+      <zone type="line" xml:id="z_tr_1_tl_53" points="631,2891 1542,2902 1542,2851 1467,2848 1175,2864 1012,2837 631,2868"/>
+      <zone type="line" xml:id="z_tr_1_tl_54" points="640,2955 1669,2955 1623,2902 640,2911"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="grc">
+        <pb n="1" facs="#p1"/>
+        <lb facs="#z_tr_1_tl_3"/>
+        <ab>Θεος.</ab>
+        <lb facs="#z_tr_1_tl_5"/>
+        <ab>Θεοι.</ab>
+        <lb facs="#z_tr_1_tl_6"/>
+        <ab>βιβλος ϊερα επικαλουμενἡ μονα η ογδοη μουcεωc</ab>
+        <lb facs="#z_tr_1_tl_7"/>
+        <ab>
+          περι του 
+          <choice>
+            <abbr>▫̅</abbr>
+            <expan>ὁνόματος</expan>
+          </choice>
+           του αγειου περιεχει δε ουτως     αγνοϲ μεινο̅ν
+        </ab>
+        <lb facs="#z_tr_1_tl_8"/>
+        <ab>
+          ημερας 
+          <num type="cardinal" value="41">μ͠α</num>
+           
+          <choice>
+            <sic>προψυφιϲαϲ</sic>
+            <corr>προψηπίσας</corr>
+          </choice>
+           ϊνα εις την ϲυνοδον την εν κρι
+        </ab>
+        <lb facs="#z_tr_1_tl_9"/>
+        <ab>κριω καταντηϲη εχε δε οικον επιπεδον· ὁπου προ εν</ab>
+        <lb facs="#z_tr_1_tl_10"/>
+        <ab>ιαυτου· ουδεις ετελευτηϲε· εστω δε η θυρα προϲ δυϲμας</ab>
+        <lb facs="#z_tr_1_tl_11"/>
+        <ab>βλεπουϲα· και αναπηξας μεϲον του οικου βοᷱμον γεϊνον</ab>
+        <lb facs="#z_tr_1_tl_12"/>
+        <ab>και ξυλα κυπαριϲϲινα· στροβ ̔ ε ̕ λουϲ δεξιους δεκα αλεκτο</ab>
+        <lb facs="#z_tr_1_tl_13"/>
+        <ab>ραϲ δυο λευκους αϲεινειϲ τελε ̔ ι ̕ ους και λυχνους δυο τε</ab>
+        <lb facs="#z_tr_1_tl_15"/>
+        <ab>
+          ταρτημοριους 
+          <choice>
+            <sic>παηρωϲας</sic>
+            <corr>πληρώσας</corr>
+          </choice>
+           ελαιου χρηϲτου κ  ᪺μηκετι.
+        </ab>
+        <lb facs="#z_tr_1_tl_16"/>
+        <ab>επιχεηϲ ειϲηλθον ·τοϲ γαρ του θεου περιοϲϲοτερον εξα</ab>
+        <lb facs="#z_tr_1_tl_17"/>
+        <ab>ωθηϲονται· απυρτιϲθω δε η τραπεζα τοις επιθυμα-</ab>
+        <lb facs="#z_tr_1_tl_18"/>
+        <ab>ϲι τουτοις. ϲυνγενικοιϲ ουϲι του θεου· εκ δε ταυτηϲ τη̅</ab>
+        <lb facs="#z_tr_1_tl_19"/>
+        <ab>βιβλου ερμης κλεψαϲ τα επιθυματαϲ προϲεφωνηϲεν</ab>
+        <lb facs="#z_tr_1_tl_21"/>
+        <ab>εαυτου ϊερα βυβλω· ἐπικαλουμενη πτερυγι του μεν</ab>
+        <lb facs="#z_tr_1_tl_22"/>
+        <ab>κρονου· ϲτυραξ·  εϲτιν γαρ βαρις· κ  ᪺ευωδηϲ· του δε διος</ab>
+        <lb facs="#z_tr_1_tl_23"/>
+        <ab>μαλαβάθρον· τοῦ δε αρεωϲ κοϲτοϲ· του δε ηλιου λιβαν͠ο</ab>
+        <lb facs="#z_tr_1_tl_24"/>
+        <ab>τηϲ δε αφροδιτηϲ ναρδοϲ ϊνδικοϲ. του δε ερμου καϲια</ab>
+        <lb facs="#z_tr_1_tl_25"/>
+        <ab>της δε ☽ ζμυρνα· ταυτα εϲτιν τα αποκρυφα επιθυμ̅</ab>
+        <lb facs="#z_tr_1_tl_27"/>
+        <ab>ο δε λεγει εν τη κλειδι μουϲηϲ ϲκευαϲεις επι παντος</ab>
+        <lb facs="#z_tr_1_tl_28"/>
+        <ab>οροβου ηλιακον κυαμω αιγυπτιω τουτοιϲ λεγει·</ab>
+        <lb facs="#z_tr_1_tl_29"/>
+        <ab>κ  ᪺ταυτα δε ο μανεθωϲ ελεγε  ̔ ε ̕ ν ϊδια βιβλω εντευθεν</ab>
+        <lb facs="#z_tr_1_tl_30"/>
+        <ab>βαϲταϲαϲ τα ζ̅  ανθη των ζ̅ αϲτερων α εϲτι· ϲαμψουχοι</ab>
+        <lb facs="#z_tr_1_tl_31"/>
+        <ab>κοινον κηπινωͦν· λωτινον· ερεφυλλινον· ναρκιϲ</ab>
+        <lb facs="#z_tr_1_tl_33"/>
+        <ab>ϲινον· λευκοϊνον· ροδον ταυτα τα ανθη προ εικοϲι</ab>
+        <lb facs="#z_tr_1_tl_34"/>
+        <ab>μιαϲ ημεραςϲ τηϲ τελητηϲ λεοτριβηϲον ϊϲ λευ-</ab>
+        <lb facs="#z_tr_1_tl_35"/>
+        <ab>κην θυιαν κ  ᪺ ξηρανον εν ϲκια κ  ᪺εχε αυτα ετοιμα ειϲ</ab>
+        <lb facs="#z_tr_1_tl_36"/>
+        <ab>την ημεραν εκεινην ̋  προτερον δε συνιϲτανο ϲια̣</ab>
+        <lb facs="#z_tr_1_tl_37"/>
+        <ab>δηποτ ουν νεομηνια κατα θεον τοις ωρογεν⟦α⟧εϲιν</ab>
+        <lb facs="#z_tr_1_tl_39"/>
+        <ab>
+          θεοις· οιϲ εχεις ̔ ε ̕ ν τη κλειδι τελε
+          <choice>
+            <sic>ο</sic>
+            <corr>ς</corr>
+          </choice>
+          θηϲη δε αυτοις ου
+        </ab>
+        <lb facs="#z_tr_1_tl_40"/>
+        <ab>
+          τοϲ ποιηϲον εκ ϲεμιδαλ⟦ο⟧εωϲ ζωδια 
+          <num type="cardinal" value="3">γ̅</num>
+            ταυροπρο
+        </ab>
+        <lb facs="#z_tr_1_tl_41"/>
+        <ab>
+          σω
+          <choice>
+            <abbr>
+              <hi rend="bold">)</hi>
+            </abbr>
+            <expan>πον</expan>
+          </choice>
+           τραγοπροϲῶ
+          <choice>
+            <abbr>
+              <hi rend="bold">)</hi>
+            </abbr>
+            <expan>πον</expan>
+          </choice>
+           κρειοπρoϲωπον εν εκαϲτον αυτ͠ω̣
+        </ab>
+        <lb facs="#z_tr_1_tl_42"/>
+        <ab>επι πολου εϲτωτα μαϲτιγαϲ εχοντα αἰιγυπτιαϲ και</ab>
+        <lb facs="#z_tr_1_tl_43"/>
+        <ab>
+          περικαπνιϲαϲ καταφαγε 
+          <choice>
+            <sic>λεγ⟦εͦ⟧τͮον</sic>
+            <corr>λέγων τὸν</corr>
+          </choice>
+           λoγον τoν ωρογενω̣
+        </ab>
+        <lb facs="#z_tr_1_tl_45"/>
+        <ab>τον εν τη κλειδι κ  ᪺τον επαναγκον αυτον κ  ᪺τουϲ εφεβδ</ab>
+        <lb facs="#z_tr_1_tl_46"/>
+        <ab>δοματικουϲ τεταγμενους κ  ᪺εϲη τελεϲμενος αυτοις</ab>
+        <lb facs="#z_tr_1_tl_47"/>
+        <ab>ϊτα τη καθολικη ϲὐψταϲει εχε νιτρον τετραγωνο̅</ab>
+        <lb facs="#z_tr_1_tl_48"/>
+        <ab>⟦α⟧ειc ο γραψει[ϲ] τo μεγα ▫̅ ταιϲ επτα φων⟦ε⟧αις αντι δε</ab>
+        <lb facs="#z_tr_1_tl_49"/>
+        <ab>του ποππυϲμου κ  ᪺του συριϲμου γραψον ε̣ιϲ̣ το εν μεροϲ</ab>
+        <lb facs="#z_tr_1_tl_51"/>
+        <ab>του νιτρου κοκοδιλον· ιερακοπροϲωπον κ  ᪺αυτω εφε</ab>
+        <lb facs="#z_tr_1_tl_52"/>
+        <ab>ϲτωτα τον εννεαμορφον αυτος γαρ ο ιερακοποϲωποϲ</ab>
+        <lb facs="#z_tr_1_tl_53"/>
+        <ab>κορκοδειλος ϊϲ τας δ̅ τροπας τον θ̣ε̣ο̣ν αϲπαζεται</ab>
+        <lb facs="#z_tr_1_tl_54"/>
+        <ab>τω πο ̔ π ̕ πυϲμω αναπνευσαϲ γαρ ποππυ̣ζει εκ του βυθου</ab>
+      </div>
+    </body>
+  </text>
+</TEI>
