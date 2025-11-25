@@ -1,9 +1,5 @@
-
 {
-  "editionUrls": [
-    "assets/data/tei_trad2.xml",
-    "assets/data/tei_trad1.xml"
-  ],
+  "editionUrls": ["assets/data/p1.xml"],
   "editionImagesSource": {
     "manifest": {
       "value": "",
@@ -15,7 +11,7 @@
     }
   },
   "imagesFolderUrls": {
-      "single": "assets/"
+    "single": "assets/data/images/"
   },
   "configurationUrls": {
     "edition": "assets/config/edition_config.json",
@@ -23,4 +19,3 @@
     "editorialConventions": "assets/config/editorial_conventions_config.json"
   }
 }
-

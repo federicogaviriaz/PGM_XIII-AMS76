@@ -1,83 +1,367 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>PGMXIII p1</title>
+        <title
+                >PGM XIII — Diplomatic transcription (from Transkribus PAGE)</title>
+        <author>Anonymous</author>
+        <editor>Rober W. Daniel</editor>
+        <respStmt>
+          <resp>digital edition preparation and TEI encoding</resp>
+          <name>Federico Gaviria Zambrano</name>
+        </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition>Diplomatic edition</edition>
+        <respStmt>
+          <resp>editor of diplomatic edition</resp>
+          <name>Rober W. Daniel</name>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-        <p>Transformación automática desde PAGE XML</p>
+        <publisher>Springer Fachmedien Wiesbaden GMBH</publisher>
+        <date>1991</date>
+        <p>Unpublished digital derivation for research and display.</p>
       </publicationStmt>
       <sourceDesc>
-        <p>Manuscrito AMS76, p 1</p>
+        <msDesc>
+          <msIdentifier>
+            <idno type="oldCatalog">J395</idno>
+            <idno type="museumNew">AMS76</idno>
+            <idno type="siglum">PGM XIII</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <p
+            >Converted from PAGE-XML; applied inline choices for abbreviations and corrections, semantic numbers, and highlighted styling.</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="grc">Ancient Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change
+            >Automated conversion with preservation of PAGE custom annotations.</change>
+    </revisionDesc>
   </teiHeader>
+
   <facsimile>
-    <!-- <graphic url="p1.jpg"> -->
-    <surface xml:id="trad1_surf_1" corresp="#trad1_fol_1" ulx="0" uly="0" lrx="1072" lry="1600">
-      <graphic url="p1.jpg"/>
-      <zone xml:id="trad1_line_1_01" corresp="#trad1_lb_1_01" ulx="186" uly="172" lrx="240" lry="206" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_02" corresp="#trad1_lb_1_02" ulx="183" uly="197" lrx="239" lry="236" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_03" corresp="#trad1_lb_1_03" ulx="197" uly="192" lrx="821" lry="262" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_04" corresp="#trad1_lb_1_04" ulx="206" uly="224" lrx="845" lry="293" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_05" corresp="#trad1_lb_1_05" ulx="198" uly="258" lrx="840" lry="320" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_06" corresp="#trad1_lb_1_06" ulx="206" uly="285" lrx="848" lry="345" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_07" corresp="#trad1_lb_1_07" ulx="201" uly="321" lrx="845" lry="376" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_08" corresp="#trad1_lb_1_08" ulx="201" uly="351" lrx="833" lry="403" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_09" corresp="#trad1_lb_1_09" ulx="202" uly="382" lrx="836" lry="432" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_10" corresp="#trad1_lb_1_10" ulx="202" uly="413" lrx="826" lry="458" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_11" corresp="#trad1_lb_1_11" ulx="219" uly="440" lrx="828" lry="486" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_12" corresp="#trad1_lb_1_12" ulx="211" uly="468" lrx="851" lry="510" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_13" corresp="#trad1_lb_1_13" ulx="213" uly="499" lrx="859" lry="536" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_14" corresp="#trad1_lb_1_14" ulx="196" uly="523" lrx="860" lry="559" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_15" corresp="#trad1_lb_1_15" ulx="208" uly="551" lrx="857" lry="589" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_16" corresp="#trad1_lb_1_16" ulx="209" uly="580" lrx="848" lry="617" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_17" corresp="#trad1_lb_1_17" ulx="209" uly="606" lrx="848" lry="642" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_18" corresp="#trad1_lb_1_18" ulx="208" uly="635" lrx="860" lry="672" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_19" corresp="#trad1_lb_1_19" ulx="224" uly="651" lrx="844" lry="700" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_20" corresp="#trad1_lb_1_20" ulx="224" uly="677" lrx="855" lry="728" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_21" corresp="#trad1_lb_1_21" ulx="214" uly="702" lrx="832" lry="757" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_22" corresp="#trad1_lb_1_22" ulx="217" uly="728" lrx="801" lry="783" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_23" corresp="#trad1_lb_1_23" ulx="213" uly="753" lrx="828" lry="813" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_24" corresp="#trad1_lb_1_24" ulx="214" uly="781" lrx="828" lry="840" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_25" corresp="#trad1_lb_1_25" ulx="214" uly="800" lrx="826" lry="872" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_26" corresp="#trad1_lb_1_26" ulx="216" uly="832" lrx="814" lry="892" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_27" corresp="#trad1_lb_1_27" ulx="219" uly="856" lrx="822" lry="917" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_28" corresp="#trad1_lb_1_28" ulx="220" uly="882" lrx="826" lry="946" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_29" corresp="#trad1_lb_1_29" ulx="225" uly="910" lrx="833" lry="972" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_30" corresp="#trad1_lb_1_30" ulx="221" uly="934" lrx="821" lry="994" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_31" corresp="#trad1_lb_1_31" ulx="228" uly="960" lrx="822" lry="1018" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_32" corresp="#trad1_lb_1_32" ulx="228" uly="988" lrx="822" lry="1045" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_33" corresp="#trad1_lb_1_33" ulx="227" uly="1019" lrx="837" lry="1074" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_34" corresp="#trad1_lb_1_34" ulx="227" uly="1042" lrx="834" lry="1103" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_35" corresp="#trad1_lb_1_35" ulx="224" uly="1072" lrx="844" lry="1125" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_36" corresp="#trad1_lb_1_36" ulx="232" uly="1098" lrx="848" lry="1152" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_37" corresp="#trad1_lb_1_37" ulx="228" uly="1124" lrx="854" lry="1182" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_38" corresp="#trad1_lb_1_38" ulx="234" uly="1154" lrx="844" lry="1198" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_39" corresp="#trad1_lb_1_39" ulx="230" uly="1177" lrx="873" lry="1222" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_40" corresp="#trad1_lb_1_40" ulx="230" uly="1205" lrx="848" lry="1249" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_41" corresp="#trad1_lb_1_41" ulx="233" uly="1228" lrx="869" lry="1281" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_42" corresp="#trad1_lb_1_42" ulx="233" uly="1253" lrx="840" lry="1305" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_43" corresp="#trad1_lb_1_43" ulx="235" uly="1278" lrx="862" lry="1334" rend="visible" rendition="Line"/>
-      <zone xml:id="trad1_line_1_44" corresp="#trad1_lb_1_44" ulx="240" uly="1309" lrx="866" lry="1371" rend="visible" rendition="Line"/>
+    <surface n="1" xml:id="p1">
+      <graphic url="p1.jpg" width="1072" height="1600" />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_5"
+                points="189,206 233,204 233,174 189,176"
+            />
+      <zone type="line" xml:id="z_l" points="192,223 233,223 233,193 192,193" />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_6"
+                points="196,267 227,263 258,261 289,256 321,253 352,251 383,248 414,245 446,243 477,243 508,240 539,240 571,240 602,238 633,236 664,236 696,234 727,231 758,229 789,229 821,231 821,201 789,199 758,199 727,201 696,204 664,206 633,206 602,208 571,210 539,210 508,210 477,213 446,213 414,215 383,218 352,221 321,223 289,226 258,231 227,233 196,237"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_7"
+                points="212,299 243,295 275,293 306,292 338,287 369,284 401,283 432,280 464,279 495,277 527,276 558,274 590,273 621,271 653,268 684,268 716,266 747,263 779,263 810,261 842,261 842,231 810,231 779,233 747,233 716,236 684,238 653,238 621,241 590,243 558,244 527,246 495,247 464,249 432,250 401,253 369,254 338,257 306,262 275,263 243,265 212,269"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_8"
+                points="203,317 234,319 266,320 298,320 330,320 362,318 393,315 425,310 457,310 489,306 521,304 552,302 584,302 616,301 648,299 680,297 711,295 743,293 775,292 807,292 839,292 839,262 807,262 775,262 743,263 711,265 680,267 648,269 616,271 584,272 552,272 521,274 489,276 457,280 425,280 393,285 362,288 330,290 298,290 266,290 234,289 203,287"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_9"
+                points="207,345 238,347 270,348 301,349 333,349 365,349 396,344 428,340 459,340 491,338 523,336 554,335 586,334 617,333 649,331 681,331 712,330 744,328 775,326 807,327 839,329 839,299 807,297 775,296 744,298 712,300 681,301 649,301 617,303 586,304 554,305 523,306 491,308 459,310 428,310 396,314 365,319 333,319 301,319 270,318 238,317 207,315"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_10"
+                points="210,376 241,377 273,377 305,377 336,379 368,379 400,377 431,374 463,370 495,368 527,367 558,364 590,363 622,364 653,363 685,361 717,360 748,360 780,360 812,360 844,360 844,330 812,330 780,330 748,330 717,330 685,331 653,333 622,334 590,333 558,334 527,337 495,338 463,340 431,344 400,347 368,349 336,349 305,347 273,347 241,347 210,346"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_11"
+                points="208,404 239,402 270,402 301,404 332,405 364,405 395,403 426,402 457,399 488,397 520,396 551,394 582,393 613,392 644,393 676,392 707,390 738,390 769,389 800,386 832,388 832,358 800,356 769,359 738,360 707,360 676,362 644,363 613,362 582,363 551,364 520,366 488,367 457,369 426,372 395,373 364,375 332,375 301,374 270,372 239,372 208,374"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_12"
+                points="207,427 238,428 269,429 301,429 332,431 364,433 395,432 426,430 458,431 489,429 521,427 552,426 583,426 615,426 646,424 678,424 709,419 740,418 772,417 803,418 835,420 835,390 803,388 772,387 740,388 709,389 678,394 646,394 615,396 583,396 552,396 521,397 489,399 458,401 426,400 395,402 364,403 332,401 301,399 269,399 238,398 207,397"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_13"
+                points="203,456 232,454 262,456 292,458 322,460 352,460 381,460 411,460 441,459 471,460 501,458 530,456 560,454 590,452 620,452 650,452 679,450 709,448 739,447 769,445 799,446 799,416 769,415 739,417 709,418 679,420 650,422 620,422 590,422 560,424 530,426 501,428 471,430 441,429 411,430 381,430 352,430 322,430 292,428 262,426 232,424 203,426"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_14"
+                points="221,481 251,484 282,484 312,484 343,485 373,485 404,485 434,486 465,487 495,487 526,487 557,487 587,486 618,483 648,481 679,478 709,477 740,475 770,474 801,474 832,476 832,446 801,444 770,444 740,445 709,447 679,448 648,451 618,453 587,456 557,457 526,457 495,457 465,457 434,456 404,455 373,455 343,455 312,454 282,454 251,454 221,451"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_15"
+                points="214,508 245,508 277,508 308,510 340,511 371,511 403,510 434,511 466,515 497,513 529,513 560,511 592,510 623,510 655,511 686,510 718,508 749,506 781,504 812,504 844,504 844,474 812,474 781,474 749,476 718,478 686,480 655,481 623,480 592,480 560,481 529,483 497,483 466,485 434,481 403,480 371,481 340,481 308,480 277,478 245,478 214,478"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_16"
+                points="214,527 246,531 278,534 310,536 343,536 375,535 407,536 440,538 472,537 504,535 537,535 569,536 601,536 633,534 666,535 698,536 730,535 763,534 795,534 827,533 860,535 860,505 827,503 795,504 763,504 730,505 698,506 666,505 633,504 601,506 569,506 537,505 504,505 472,507 440,508 407,506 375,505 343,506 310,506 278,504 246,501 214,497"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_17"
+                points="212,558 244,558 277,558 309,559 342,561 375,561 407,563 440,562 472,562 505,563 538,563 570,563 603,561 635,560 668,561 701,561 733,561 766,561 798,560 831,561 864,560 864,530 831,531 798,530 766,531 733,531 701,531 668,531 635,530 603,531 570,533 538,533 505,533 472,532 440,532 407,533 375,531 342,531 309,529 277,528 244,528 212,528"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_18"
+                points="210,588 242,586 274,586 307,587 339,586 372,585 404,585 436,586 469,588 501,588 534,588 566,588 598,587 631,588 663,588 696,588 728,588 760,586 793,586 825,587 858,586 858,556 825,557 793,556 760,556 728,558 696,558 663,558 631,558 598,557 566,558 534,558 501,558 469,558 436,556 404,555 372,555 339,556 307,557 274,556 242,556 210,558"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_19"
+                points="210,615 241,615 273,618 305,618 337,617 369,617 401,615 433,613 465,613 497,614 529,615 560,613 592,614 624,616 656,617 688,618 720,618 752,618 784,617 816,617 848,615 848,585 816,587 784,587 752,588 720,588 688,588 656,587 624,586 592,584 560,583 529,585 497,584 465,583 433,583 401,585 369,587 337,587 305,588 273,588 241,585 210,585"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_20"
+                points="214,640 245,642 277,643 309,644 341,648 373,647 405,649 436,646 468,645 500,646 532,645 564,643 596,642 628,643 659,642 691,642 723,642 755,642 787,642 819,644 851,647 851,617 819,614 787,612 755,612 723,612 691,612 659,612 628,613 596,612 564,613 532,615 500,616 468,615 436,616 405,619 373,617 341,618 309,614 277,613 245,612 214,610"
+            />
+      <zone
+                type="line"
+                xml:id="z_l_1"
+                points="213,655 348,659 460,659 626,669 851,664 850,634 627,639 461,629 348,629 214,625"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_23"
+                points="225,676 256,681 287,683 318,684 350,686 381,686 412,690 444,692 475,692 506,694 538,695 569,697 600,699 631,701 663,698 694,698 725,698 757,695 788,695 819,697 851,695 851,665 819,667 788,665 757,665 725,668 694,668 663,668 631,671 600,669 569,667 538,665 506,664 475,662 444,662 412,660 381,656 350,656 318,654 287,653 256,651 225,646"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_24"
+                points="223,702 254,706 286,709 318,711 349,711 381,713 413,715 444,717 476,719 508,720 540,723 571,726 603,726 635,725 666,724 698,724 730,724 761,724 793,726 825,725 857,726 857,696 825,695 793,696 761,694 730,694 698,694 666,694 635,695 603,696 571,696 540,693 508,690 476,689 444,687 413,685 381,683 349,681 318,681 286,679 254,676 223,672"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_25"
+                points="214,733 245,733 276,737 307,739 338,741 369,742 400,742 432,742 463,744 494,746 525,750 556,752 587,752 618,752 650,753 681,754 712,753 743,753 774,754 805,754 837,754 837,724 805,724 774,724 743,723 712,723 681,724 650,723 618,722 587,722 556,722 525,720 494,716 463,714 432,712 400,712 369,712 338,711 307,709 276,707 245,703 214,703"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_26"
+                points="217,758 246,761 275,765 305,767 334,767 364,767 393,767 422,769 452,770 481,773 511,774 540,777 569,777 599,778 628,782 658,784 687,784 716,782 746,782 775,783 805,783 805,753 775,753 746,752 716,752 687,754 658,754 628,752 599,748 569,747 540,747 511,744 481,743 452,740 422,739 393,737 364,737 334,737 305,737 275,735 246,731 217,728"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_27"
+                points="214,788 245,790 276,791 307,793 338,793 369,793 400,795 431,797 462,800 493,801 524,801 555,803 586,804 617,806 648,810 679,808 710,808 741,808 772,810 803,811 835,815 835,785 803,781 772,780 741,778 710,778 679,778 648,780 617,776 586,774 555,773 524,771 493,771 462,770 431,767 400,765 369,763 338,763 307,763 276,761 245,760 214,758"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_28"
+                points="217,810 247,813 278,816 309,819 340,820 371,821 401,822 432,824 463,826 494,826 525,827 555,827 586,829 617,831 648,831 679,835 709,833 740,834 771,837 802,840 833,843 833,813 802,810 771,807 740,804 709,803 679,805 648,801 617,801 586,799 555,797 525,797 494,796 463,796 432,794 401,792 371,791 340,790 309,789 278,786 247,783 217,780"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_29"
+                points="219,838 249,840 280,841 310,842 341,844 371,846 402,849 432,849 463,851 493,851 524,851 555,852 585,855 616,856 646,861 677,861 707,861 738,862 768,866 799,869 830,870 830,840 799,839 768,836 738,832 707,831 677,831 646,831 616,826 585,825 555,822 524,821 493,821 463,821 432,819 402,819 371,816 341,814 310,812 280,811 249,810 219,808"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_30"
+                points="221,867 251,867 281,867 311,869 342,871 372,872 402,874 432,876 463,874 493,876 523,877 553,878 584,879 614,880 644,884 674,886 705,886 735,888 765,891 795,894 826,895 826,865 795,864 765,861 735,858 705,856 674,856 644,854 614,850 584,849 553,848 523,847 493,846 463,844 432,846 402,844 372,842 342,841 311,839 281,837 251,837 221,837"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_31"
+                points="223,890 252,893 282,893 312,894 342,896 372,898 401,900 431,901 461,901 491,902 521,902 550,902 580,904 610,907 640,911 670,911 699,911 729,915 759,915 789,919 819,926 819,896 789,889 759,885 729,885 699,881 670,881 640,881 610,877 580,874 550,872 521,872 491,872 461,871 431,871 401,870 372,868 342,866 312,864 282,863 252,863 223,860"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_32"
+                points="223,920 253,920 283,922 313,922 343,923 373,924 403,926 433,927 463,929 493,929 524,930 554,931 584,932 614,934 644,935 674,936 704,936 734,942 764,943 794,946 825,951 825,921 794,916 764,913 734,912 704,906 674,906 644,905 614,904 584,902 554,901 524,900 493,899 463,899 433,897 403,896 373,894 343,893 313,892 283,892 253,890 223,890"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_33"
+                points="226,945 256,945 287,947 317,949 348,952 378,952 409,955 439,956 470,958 500,958 531,958 562,958 592,959 623,961 653,963 684,965 714,967 745,968 775,970 806,975 837,981 837,951 806,945 775,940 745,938 714,937 684,935 653,933 623,931 592,929 562,928 531,928 500,928 470,928 439,926 409,925 378,922 348,922 317,919 287,917 256,915 226,915"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_34"
+                points="226,968 256,968 286,971 316,975 346,976 377,978 407,980 437,983 467,983 497,983 528,983 558,983 588,984 618,987 648,988 679,990 709,992 739,993 769,996 799,998 830,999 830,969 799,968 769,966 739,963 709,962 679,960 648,958 618,957 588,954 558,953 528,953 497,953 467,953 437,953 407,950 377,948 346,946 316,945 286,941 256,938 226,938"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_35"
+                points="226,993 256,993 286,995 316,998 347,1002 377,1003 407,1005 438,1008 468,1010 498,1011 529,1011 559,1010 589,1009 619,1011 650,1013 680,1013 710,1017 741,1020 771,1021 801,1022 832,1024 832,994 801,992 771,991 741,990 710,987 680,983 650,983 619,981 589,979 559,980 529,981 498,981 468,980 438,978 407,975 377,973 347,972 316,968 286,965 256,963 226,963"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_36"
+                points="228,1026 258,1024 288,1026 318,1026 348,1027 378,1030 408,1032 438,1033 468,1035 498,1035 529,1035 559,1034 589,1035 619,1037 649,1039 679,1040 709,1043 739,1045 769,1045 799,1046 830,1047 830,1017 799,1016 769,1015 739,1015 709,1013 679,1010 649,1009 619,1007 589,1005 559,1004 529,1005 498,1005 468,1005 438,1003 408,1002 378,1000 348,997 318,996 288,996 258,994 228,996"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_37"
+                points="228,1052 257,1051 286,1056 315,1056 345,1057 374,1059 403,1061 433,1061 462,1062 491,1063 521,1065 550,1063 579,1063 608,1065 638,1067 667,1068 696,1069 726,1071 755,1072 784,1073 814,1074 814,1044 784,1043 755,1042 726,1041 696,1039 667,1038 638,1037 608,1035 579,1033 550,1033 521,1035 491,1033 462,1032 433,1031 403,1031 374,1029 345,1027 315,1026 286,1026 257,1021 228,1022"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_38"
+                points="230,1076 260,1077 290,1079 321,1080 351,1083 381,1086 412,1088 442,1088 472,1090 503,1090 533,1091 563,1091 594,1093 624,1094 654,1097 685,1097 715,1097 745,1097 776,1098 806,1099 837,1102 837,1072 806,1069 776,1068 745,1067 715,1067 685,1067 654,1067 624,1064 594,1063 563,1061 533,1061 503,1060 472,1060 442,1058 412,1058 381,1056 351,1053 321,1050 290,1049 260,1047 230,1046"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_39"
+                points="228,1106 258,1104 289,1106 320,1108 351,1111 382,1112 412,1115 443,1115 474,1115 505,1117 536,1118 566,1118 597,1120 628,1122 659,1122 690,1122 720,1123 751,1123 782,1125 813,1127 844,1127 844,1097 813,1097 782,1095 751,1093 720,1093 690,1092 659,1092 628,1092 597,1090 566,1088 536,1088 505,1087 474,1085 443,1085 412,1085 382,1082 351,1081 320,1078 289,1076 258,1074 228,1076"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_40"
+                points="232,1131 262,1131 292,1134 323,1136 353,1137 384,1141 414,1142 445,1142 475,1140 506,1142 536,1141 566,1142 597,1143 627,1145 658,1145 688,1145 719,1149 749,1147 780,1148 810,1151 841,1152 841,1122 810,1121 780,1118 749,1117 719,1119 688,1115 658,1115 627,1115 597,1113 566,1112 536,1111 506,1112 475,1110 445,1112 414,1112 384,1111 353,1107 323,1106 292,1104 262,1101 232,1101"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_41"
+                points="233,1156 263,1157 293,1161 323,1164 353,1166 383,1170 413,1172 443,1170 473,1170 503,1170 533,1170 563,1169 593,1171 623,1174 653,1175 683,1172 713,1176 743,1176 773,1174 803,1177 833,1179 833,1149 803,1147 773,1144 743,1146 713,1146 683,1142 653,1145 623,1144 593,1141 563,1139 533,1140 503,1140 473,1140 443,1140 413,1142 383,1140 353,1136 323,1134 293,1131 263,1127 233,1126"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_42"
+                points="244,1182 274,1185 304,1189 334,1192 364,1193 394,1197 424,1199 454,1199 484,1201 514,1199 545,1197 575,1196 605,1197 635,1198 665,1196 695,1198 725,1197 755,1197 785,1197 815,1196 846,1197 846,1167 815,1166 785,1167 755,1167 725,1167 695,1168 665,1166 635,1168 605,1167 575,1166 545,1167 514,1169 484,1171 454,1169 424,1169 394,1167 364,1163 334,1162 304,1159 274,1155 244,1152"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_43"
+                points="232,1211 264,1210 296,1213 328,1217 360,1218 392,1224 424,1222 457,1223 489,1222 521,1222 553,1220 585,1220 617,1219 649,1218 682,1220 714,1220 746,1220 778,1222 810,1222 842,1222 875,1224 875,1194 842,1192 810,1192 778,1192 746,1190 714,1190 682,1190 649,1188 617,1189 585,1190 553,1190 521,1192 489,1192 457,1193 424,1192 392,1194 360,1188 328,1187 296,1183 264,1180 232,1181"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_44"
+                points="235,1235 266,1233 297,1234 328,1235 359,1240 390,1243 421,1245 452,1249 483,1247 514,1246 545,1244 576,1246 607,1247 638,1245 669,1245 700,1245 731,1244 762,1243 793,1245 824,1245 855,1247 855,1217 824,1215 793,1215 762,1213 731,1214 700,1215 669,1215 638,1215 607,1217 576,1216 545,1214 514,1216 483,1217 452,1219 421,1215 390,1213 359,1210 328,1205 297,1204 266,1203 235,1205"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_45"
+                points="233,1258 264,1258 296,1260 328,1263 360,1266 392,1268 423,1272 455,1276 487,1276 519,1275 551,1271 582,1272 614,1274 646,1273 678,1272 710,1272 741,1274 773,1274 805,1276 837,1276 869,1279 869,1249 837,1246 805,1246 773,1244 741,1244 710,1242 678,1242 646,1243 614,1244 582,1242 551,1241 519,1245 487,1246 455,1246 423,1242 392,1238 360,1236 328,1233 296,1230 264,1228 233,1228"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_46"
+                points="232,1281 262,1283 292,1286 323,1290 353,1294 384,1296 414,1300 445,1302 475,1304 506,1301 536,1302 566,1301 597,1301 627,1302 658,1301 688,1301 719,1299 749,1301 780,1301 810,1301 841,1302 841,1272 810,1271 780,1271 749,1271 719,1269 688,1271 658,1271 627,1272 597,1271 566,1271 536,1272 506,1271 475,1274 445,1272 414,1270 384,1266 353,1264 323,1260 292,1256 262,1253 232,1251"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_47"
+                points="239,1308 270,1310 301,1312 332,1316 363,1321 394,1324 425,1326 457,1326 488,1327 519,1328 550,1328 581,1327 612,1327 643,1329 675,1331 706,1331 737,1331 768,1333 799,1333 830,1333 862,1333 862,1303 830,1303 799,1303 768,1303 737,1301 706,1301 675,1301 643,1299 612,1297 581,1297 550,1298 519,1298 488,1297 457,1296 425,1296 394,1294 363,1291 332,1286 301,1282 270,1280 239,1278"
+            />
+      <zone
+                type="line"
+                xml:id="z_tr_1_tl_48"
+                points="244,1342 275,1340 306,1343 337,1346 368,1348 399,1351 430,1354 461,1354 492,1355 523,1356 554,1356 585,1356 616,1356 647,1358 678,1358 709,1359 740,1358 771,1358 802,1360 833,1358 864,1356 864,1326 833,1328 802,1330 771,1328 740,1328 709,1329 678,1328 647,1328 616,1326 585,1326 554,1326 523,1326 492,1325 461,1324 430,1324 399,1321 368,1318 337,1316 306,1313 275,1310 244,1312"
+            />
     </surface>
   </facsimile>
   <text>
     <body>
-      <div type="chapter">
-        <pb n="f. 1" xml:id="trad1_fol_1" facs="p2.jpg"/>
-        <p>
-          <lb n="1" xml:id="trad1_lb_1_01" facs="#trad1_line_1_01"/>Dios<lb n="2" xml:id="trad1_lb_1_02" facs="#trad1_line_1_02"/>Dioses<lb n="3" xml:id="trad1_lb_1_03" facs="#trad1_line_1_03"/>Un libro sagrado llamado "La mónada" u "Octavo libro de Moisés"<lb n="4" xml:id="trad1_lb_1_04" facs="#trad1_line_1_04"/>acerca del Nombre santo. Contiene lo siguiente: permanezca casto<lb n="5" xml:id="trad1_lb_1_05" facs="#trad1_line_1_05"/>por 41 días, calculando que terminen en el (sínodo)<lb n="6" xml:id="trad1_lb_1_06" facs="#trad1_line_1_06"/>del tiempo de Aries. Tenga una casa al nivel del suelo en<lb n="7" xml:id="trad1_lb_1_07" facs="#trad1_line_1_07"/>la que en en el último año no haya muerto nadie. La puerta mirando a oriente.<lb n="8" xml:id="trad1_lb_1_08" facs="#trad1_line_1_08"/>Erija una altar de tierra en el medio de la casa<lb n="9" xml:id="trad1_lb_1_09" facs="#trad1_line_1_09"/>y aliste maderas de ciprés, diez estróbilos maduros, dos<lb n="10" xml:id="trad1_lb_1_10" facs="#trad1_line_1_10"/>gallinas blancas sin daño ni manchas, y también dos lámparas<lb n="11" xml:id="trad1_lb_1_11" facs="#trad1_line_1_11"/>llenas en una cuarta parte con un buen aceite, sin vertir nada<lb n="12" xml:id="trad1_lb_1_12" facs="#trad1_line_1_12"/>mas en ellas, pues cuando llegue el Dios arderan de manera excesiva.<lb n="13" xml:id="trad1_lb_1_13" facs="#trad1_line_1_13"/>Aliste la mesa con los siguientes inciensos<lb n="14" xml:id="trad1_lb_1_14" facs="#trad1_line_1_14"/>que (corresponden) con el Dios. (Plagiando<lb n="15" xml:id="trad1_lb_1_15" facs="#trad1_line_1_15"/>de este libro Hermes da cuenta de los (7) inciensos<lb n="16" xml:id="trad1_lb_1_16" facs="#trad1_line_1_16"/>en su libro sagrado llamado "La Ala").<lb n="17" xml:id="trad1_lb_1_17" facs="#trad1_line_1_17"/>1) De cronos, el estoraque, pues es pesado y fragante. 2) De Zeus,<lb n="18" xml:id="trad1_lb_1_18" facs="#trad1_line_1_18"/>el laurel. 3) De Ares, el (costo). 4) De Helio, el olíbano.<lb n="19" xml:id="trad1_lb_1_19" facs="#trad1_line_1_19"/>5) De Afrodita, el nardo indio. 6)De Hermes, la casia.<lb n="20" xml:id="trad1_lb_1_20" facs="#trad1_line_1_20"/>7) de Selene, la mirra. Esos son los incienzos secretos.<lb n="21" xml:id="trad1_lb_1_21" facs="#trad1_line_1_21"/>Esto dice en la llave de Moisés*: "Prepare (Yero solar)<lb n="22" xml:id="trad1_lb_1_22" facs="#trad1_line_1_22"/>para cada ocasión (así llama al haba de Egipto).<lb n="23" xml:id="trad1_lb_1_23" facs="#trad1_line_1_23"/>Y así indicaba Manetón en su libro:<lb n="24" xml:id="trad1_lb_1_24" facs="#trad1_line_1_24"/>(cita larga)Tome las 7 flores de los 7 astros, que son: Mejorana,<lb n="25" xml:id="trad1_lb_1_25" facs="#trad1_line_1_25"/>(auzucena), Loto, (Herephyllinon), narciso,<lb n="26" xml:id="trad1_lb_1_26" facs="#trad1_line_1_26"/>Alhelí y Rosa. Triture estas flores ventiún días<lb n="27" xml:id="trad1_lb_1_27" facs="#trad1_line_1_27"/>antes de la iniciación en un mortero<lb n="28" xml:id="trad1_lb_1_28" facs="#trad1_line_1_28"/>blanco, séquelas a la sombra y téngalas listas<lb n="29" xml:id="trad1_lb_1_29" facs="#trad1_line_1_29"/>para aquel día. |Pero primero, encomiéndese<lb n="30" xml:id="trad1_lb_1_30" facs="#trad1_line_1_30"/>a los dioses que corresponden a las horas del día bajo la luna nueva de la naturaleza del Dios<lb n="31" xml:id="trad1_lb_1_31" facs="#trad1_line_1_31"/>(que tiene en la 'Llave'.) Conságrese de la siguiente manera:<lb n="32" xml:id="trad1_lb_1_32" facs="#trad1_line_1_32"/>De harina de Trigo fina haga tres figuras: una con rostro de toro,<lb n="33" xml:id="trad1_lb_1_33" facs="#trad1_line_1_33"/>otra de macho cabrío y la última de carnero., cada una de ellas<lb n="34" xml:id="trad1_lb_1_34" facs="#trad1_line_1_34"/>de pie sobre un eje sosteniendo látigos egipcios,<lb n="35" xml:id="trad1_lb_1_35" facs="#trad1_line_1_35"/>e incensadas devórelas diciendo el hechizo de los dioses que corresponden a las horas<lb n="36" xml:id="trad1_lb_1_36" facs="#trad1_line_1_36"/>(que tiene en la 'Llave'), así como aquel que los comanda,<lb n="37" xml:id="trad1_lb_1_37" facs="#trad1_line_1_37"/>y la lista de los Dioses que corrensponden a las semanas, y será consagrado a ellos.<lb n="38" xml:id="trad1_lb_1_38" facs="#trad1_line_1_38"/>Ahora, para el (encuentro general) tenga un cuadrado de natron<lb n="39" xml:id="trad1_lb_1_39" facs="#trad1_line_1_39"/>en donde escribirá el gan Nombre con siete (sonidos).<lb n="40" xml:id="trad1_lb_1_40" facs="#trad1_line_1_40"/>En vez de un chasquido con los labios o un siseo, escriba en el medio<lb n="41" xml:id="trad1_lb_1_41" facs="#trad1_line_1_41"/>del natron un cocodrilo con rostro de halcón y<lb n="42" xml:id="trad1_lb_1_42" facs="#trad1_line_1_42"/>estando sobre él el de las nueve formas, pues el cocodrilo<lb n="43" xml:id="trad1_lb_1_43" facs="#trad1_line_1_43"/>con rostro de halcón saluda al dios en los cuatro equinoxios<lb n="44" xml:id="trad1_lb_1_44" facs="#trad1_line_1_44"/>con el chasquido de los labios.</p>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
-        <p/>
+      <div type="transcription" xml:lang="grc">
+        <pb n="1" facs="#p1" />
+        <lb facs="#z_tr_1_tl_5" />
+        <ab>Θεος.</ab>
+        <lb facs="#z_l" />
+        <ab>Θεοι.</ab>
+        <lb facs="#z_tr_1_tl_6" />
+        <ab>βιβλος ϊερα επικαλουμενἡ μοναϲ η ογδοη μουcεωc</ab>
+        <lb facs="#z_tr_1_tl_7" />
+        <ab>περι του ▫̅ του αγειου περιεχει δε ουτως      αγνοϲ μεινο̅ν</ab>
+        <lb facs="#z_tr_1_tl_8" />
+        <ab>ημερας μ͠α προψυφιϲαϲ ϊνα εις την ϲυνοδον την εν κρι</ab>
+        <lb facs="#z_tr_1_tl_9" />
+        <ab>κριω καταντηϲη εχε δε οικον επιπεδον· ὁπου προ εν</ab>
+        <lb facs="#z_tr_1_tl_10" />
+        <ab>ιαυτου· ουδεις ετελευτηϲε· εστω δε η θυρα προϲ δυϲμας</ab>
+        <lb facs="#z_tr_1_tl_11" />
+        <ab>βλεπουϲα· και αναπηξας μεϲον του οικου βοᷱμον γεϊνον</ab>
+        <lb facs="#z_tr_1_tl_12" />
+        <ab>και ξυλα κυπαριϲϲινα· στροβ ̔ ε ̕ λουϲ δεξιους δεκα αλεκτο</ab>
+        <lb facs="#z_tr_1_tl_13" />
+        <ab>ραϲ δυο λευκους αϲεινειϲ τελε ̔ ι ̕ ους και λυχνους δυο τε</ab>
+        <lb facs="#z_tr_1_tl_14" />
+        <ab>ταρτημοριους παηρωϲας ελαιου χρηϲτου κ  ᪺μηκετι</ab>
+        <lb facs="#z_tr_1_tl_15" />
+        <ab>επιχεηϲ ειϲηλθον ·τοϲ γαρ του θεου περιοϲϲοτερον εξα</ab>
+        <lb facs="#z_tr_1_tl_16" />
+        <ab>ωθηϲονται· απυρτιϲθω δε η τραπεζα τοις επιθυμα-</ab>
+        <lb facs="#z_tr_1_tl_17" />
+        <ab>ϲι τουτοις. ϲυνγενικοιϲ ουϲι του θεου· εκ δε ταυτηϲ τη̅</ab>
+        <lb facs="#z_tr_1_tl_18" />
+        <ab>βιβλου ερμης κλεψαϲ τα επιθυματαϲ προϲεφωνηϲεν</ab>
+        <lb facs="#z_tr_1_tl_19" />
+        <ab>εαυτου ϊερα βυβλω· ἐπικαλουμενη πτερυγι του μεν</ab>
+        <lb facs="#z_tr_1_tl_20" />
+        <ab>κρονου· ϲτυραξ· εϲτιν γαρ βαρις· κ  ᪺ευωδηϲ· του δε διος</ab>
+        <lb facs="#z_l_1" />
+        <ab>μαλαβάθρον· τοῦ δε αρεωϲ κοϲτοϲ· του δε ηλιου λιβαν͠ο</ab>
+        <lb facs="#z_tr_1_tl_23" />
+        <ab>τηϲ δε αφροδιτηϲ ναρδοϲ ϊνδικοϲ. του δε ερμου καϲια</ab>
+        <lb facs="#z_tr_1_tl_24" />
+        <ab>της δε ☽ ζμυρνα· ταυτα εϲτιν τα αποκρυφα επιθυμ̅</ab>
+        <lb facs="#z_tr_1_tl_25" />
+        <ab>ο δε λεγει εν τη κλειδι μουϲηϲ ϲκευαϲεις επι παντος</ab>
+        <lb facs="#z_tr_1_tl_26" />
+        <ab>οροβου ηλιακον κυαμω αιγυπτιω τουτοιϲ λεγει·</ab>
+        <lb facs="#z_tr_1_tl_27" />
+        <ab>κ  ᪺ταυτα δε ο μανεθωϲ ελεγε  ̔ ε ̕ ν ϊδια βιβλω εντευθεν</ab>
+        <lb facs="#z_tr_1_tl_28" />
+        <ab>βαϲταϲαϲ τα ζ̅ ανθη των ζ̅ αϲτερων α εϲτι· ϲαμψουχοι</ab>
+        <lb facs="#z_tr_1_tl_29" />
+        <ab>κοινον κηπινωͦν· λωτινον· ερεφυλλινον· ναρκιϲ</ab>
+        <lb facs="#z_tr_1_tl_30" />
+        <ab>ϲινον· λευκοϊνον· ροδον ταυτα τα ανθη προ εικοϲι</ab>
+        <lb facs="#z_tr_1_tl_31" />
+        <ab>μιαϲ ημεραϲ τηϲ τελητηϲ λεοτριβηϲον ϊϲ λευ-</ab>
+        <lb facs="#z_tr_1_tl_32" />
+        <ab>κην θυιαν κ  ᪺ ξηρανον εν ϲκια κ  ᪺εχε αυτα ετοιμα ειϲ</ab>
+        <lb facs="#z_tr_1_tl_33" />
+        <ab>την ημεραν εκεινην ̋  προτερον δε συνιϲτανο ϲια̣</ab>
+        <lb facs="#z_tr_1_tl_34" />
+        <ab>δηποτ ουν νεομηνια κατα θεον τοις ωρογεν⟦α⟧εϲιν</ab>
+        <lb facs="#z_tr_1_tl_35" />
+        <ab>θεοις· οιϲ εχεις ̔ ε ̕ ν τη κλειδι τελεοθηϲη δε αυτοις ου</ab>
+        <lb facs="#z_tr_1_tl_36" />
+        <ab>τοϲ ποιηϲον εκ ϲεμιδαλ⟦ο⟧εωϲ ζωδια γ̅ ταυροπρο</ab>
+        <lb facs="#z_tr_1_tl_37" />
+        <ab>σω) τραγοπροϲῶ) κρειοπρoϲωπον εν εκαϲτον αυτ͠ω̣</ab>
+        <lb facs="#z_tr_1_tl_38" />
+        <ab>επι πολου εϲτωτα μαϲτιγαϲ εχοντα αιγυπτιαϲ και</ab>
+        <lb facs="#z_tr_1_tl_39" />
+        <ab>περικαπνιϲαϲ καταφαγε λεγ⟦εͦ⟧τͮον λoγον τoν ωρογενω̣</ab>
+        <lb facs="#z_tr_1_tl_40" />
+        <ab>τον εν τη κλειδι κ  ᪺τον επαναγκον αυτον κ  ᪺τουϲ εφεβδ</ab>
+        <lb facs="#z_tr_1_tl_41" />
+        <ab>δοματικουϲ τεταγμενους κ  ᪺εϲη τελεϲμενος αυτοις</ab>
+        <lb facs="#z_tr_1_tl_42" />
+        <ab>ϊτα τη καθολικη ϲυϲταϲει εχε νιτρον τετραγωνο̅</ab>
+        <lb facs="#z_tr_1_tl_43" />
+        <ab>⟦α⟧ειc ο γραψει[ϲ] τo μεγα ▫̅ ταιϲ επτα φων⟦ε⟧αις αντι δε</ab>
+        <lb facs="#z_tr_1_tl_44" />
+        <ab>του ποππυϲμου κ  ᪺του συριϲμου γραψον ε̣ιϲ̣ το εν μεροϲ</ab>
+        <lb facs="#z_tr_1_tl_45" />
+        <ab>του νιτρου κοκοδιλον· ιερακοπροϲωπον κ  ᪺αυτω εφε</ab>
+        <lb facs="#z_tr_1_tl_46" />
+        <ab>ϲτωτα τον εννεαμορφον αυτος γαρ ο ιερακοποϲωποϲ</ab>
+        <lb facs="#z_tr_1_tl_47" />
+        <ab>κορκοδειλος ϊϲ τας δ̅ τροπας τον θ̣ε̣ο̣ν αϲπαζεται</ab>
+        <lb facs="#z_tr_1_tl_48" />
+        <ab>τω πο ̔ π ̕ πυϲμω αναπνευσαϲ γαρ ποππυ̣ζει εκ του βυθου</ab>
       </div>
     </body>
   </text>

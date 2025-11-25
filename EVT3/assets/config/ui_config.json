@@ -82,7 +82,7 @@
   "enabled": true,
   "position": "toolbar",
   "label": "Select edition"
-}
+},
 	"enableNavBar": true,
 	"initNavBarOpened": true,
 	"thumbnailsButton": true,
