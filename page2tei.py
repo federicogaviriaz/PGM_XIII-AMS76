@@ -933,12 +933,25 @@ def convert_page_to_tei(page_root: ET.Element, meta: Dict[str, Any]) -> ET.Eleme
         # Collect TextLines with reading order
         lines = []
         for tregion in page.findall(".//pg:TextRegion", PAGE_NS):
+            # Get region's reading order index
+            region_cust = tregion.get("custom") or ""
+            region_idx = 999999
+            if "index:" in region_cust:
+                try:
+                    region_idx = int(
+                        region_cust.split("index:")[1].split(";")[0].strip(" }")
+                    )
+                except Exception:
+                    pass
+
             for tl in tregion.findall("pg:TextLine", PAGE_NS):
                 cust = tl.get("custom") or ""
-                idx = 999999
+                line_idx = 999999
                 if "index:" in cust:
                     try:
-                        idx = int(cust.split("index:")[1].split(";")[0].strip(" }"))
+                        line_idx = int(
+                            cust.split("index:")[1].split(";")[0].strip(" }")
+                        )
                     except Exception:
                         pass
 
@@ -958,13 +971,16 @@ def convert_page_to_tei(page_root: ET.Element, meta: Dict[str, Any]) -> ET.Eleme
                 )
 
                 tl_id = tl.get("id") or f"tl_{len(lines) + 1}"
-                lines.append((idx, tl_id, points, baseline, text_val, cust))
+                # Store as (region_idx, line_idx, tl_id, points, baseline, text_val, cust)
+                lines.append(
+                    (region_idx, line_idx, tl_id, points, baseline, text_val, cust)
+                )
 
-        # Sort by reading order
-        lines.sort(key=lambda x: (x[0], x[1]))
+        # Sort by region reading order, then line reading order within region
+        lines.sort(key=lambda x: (x[0], x[1], x[2]))
 
         # Create line zones and text
-        for line_num, (_, tl_id, points, baseline, text_val, cust) in enumerate(
+        for line_num, (_, _, tl_id, points, baseline, text_val, cust) in enumerate(
             lines, start=1
         ):
             zid = f"z_{tl_id}"
