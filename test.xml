@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2025-06-10T19:58:52.223+02:00</Created>
+        <LastChange>2025-11-19T15:38:32.150+01:00</LastChange>
+    </Metadata>
+    <Page imageFilename="p004.jpg" imageWidth="2479" imageHeight="3508">
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {type:heading;}">
+            <Coords points="264,199 2088,203 2088,460 264,456"/>
+            <TextLine id="l" custom="readingOrder {index:0;} textStyle {offset:0;length:1;bold:true;} person {offset:35;length:13;continued:true;firstname:Diego;dateOfDeath:1480;dateOfBirth:1515;lastname:Álvarez\u0020Chanca;}">
+                <Coords points="513,274 596,278 640,278 716,282 815,282 883,278 986,278 1149,278 1216,278 1427,278 1546,282 1705,278 1833,290 1940,290 2039,274 2075,286 2085,258 2042,244 1938,260 1834,260 1706,248 1547,252 1428,248 1216,248 1149,248 986,248 882,248 814,252 716,252 641,248 597,248 514,244"/>
+                <Baseline points="513,274 596,278 640,278 716,282 815,282 883,278 986,278 1149,278 1216,278 1427,278 1546,282 1705,278 1833,290 1940,290 2039,274 2075,286"/>
+                <TextEquiv>
+                    <Unicode>Tractatus de fascinatione editus a didaco Alvari</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_355" custom="readingOrder {index:1;} person {offset:0;length:6;continued:true;firstname:Diego;dateOfDeath:1480;dateOfBirth:1515;lastname:Álvarez\u0020Chanca;} abbrev {offset:39;length:2;expansion:q(ue);} abbrev {offset:43;length:2;expansion:[omi];} regularised {offset:38;length:1;original:ae;} abbrev {offset:17;length:2;expansion:q(ue);}">
+                <Coords points="521,366 2047,362 2047,332 521,336"/>
+                <Baseline points="521,366 2047,362"/>
+                <TextEquiv>
+                    <Unicode>chanca doctore atqȝ medico Regis regineqȝ dño</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_359" custom="readingOrder {index:2;} sic {offset:2;length:1;correction:m;} sic {offset:12;length:1;correction:m;}">
+                <Coords points="505,437 1419,437 1419,407 505,407"/>
+                <Baseline points="505,437 855,442 1419,437"/>
+                <TextEquiv>
+                    <Unicode>run nostrorun feliciter incipit.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="tr_3" custom="readingOrder {index:1;} structure {type:paragraph;}">
+            <Coords points="250,467 282,2956 2104,2953 2097,455"/>
+            <TextLine id="l_577" custom="readingOrder {index:0;} textStyle {offset:0;length:1;bold:true;} abbrev {offset:17;length:2;expansion:u[m];} abbrev {offset:22;length:2;expansion:d(e);} abbrev {offset:19;length:2;expansion:q(ue);} sic {offset:36;length:2;correction:e;}">
+                <Coords points="693,838 2057,844 2057,814 693,808"/>
+                <Baseline points="693,838 2057,844"/>
+                <TextEquiv>
+                    <Unicode>Interrogatus plerũqȝ d̑ fascinationee. obmu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_366" custom="readingOrder {index:1;} person {offset:13;length:7;firstname:Sócrates;wikiData:Q913;} sic {offset:25;length:1;correction:n;} abbrev {offset:31;length:2;expansion:u[n];}">
+                <Coords points="1193,592 2067,600 700,592 699,622 2116,601 1193,562"/>
+                <Baseline points="1193,592 2067,600 700,592"/>
+                <TextEquiv>
+                    <Unicode>tui doctus a socrate diceute. tũc poteris opti</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_370" custom="readingOrder {index:2;} abbrev {offset:34;length:3;expansion:q[uo]d;} regularised {offset:16;length:2;original:h;}">
+                <Coords points="708,668 2075,688 2076,658 708,638"/>
+                <Baseline points="708,685 1112,679 2075,688"/>
+                <TextEquiv>
+                    <Unicode>me dicere: si nichil dixeris nisi qd̑ optime scive</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_374" custom="readingOrder {index:3;} abbrev {offset:5;length:2;expansion:q[ua]r(e);} abbrev {offset:8;length:2;expansion:d(e);} abbrev {offset:32;length:2;expansion:o(n);} regularised {offset:37;length:2;original:h;}">
+                <Coords points="696,767 2059,767 2059,737 696,737"/>
+                <Baseline points="696,767 2059,767"/>
+                <TextEquiv>
+                    <Unicode>ris. qr d̑ huius modi scientia nõ michi optime</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_581" custom="readingOrder {index:4;} abbrev {offset:28;length:1;expansion:(rum);} abbrev {offset:44;length:2;expansion:e(m);} abbrev {offset:55;length:3;expansion:q[uo]d;} abbrev {offset:1;length:2;expansion:o[n];}">
+                <Coords points="269,926 2053,930 2053,900 269,896"/>
+                <Baseline points="269,926 2053,930"/>
+                <TextEquiv>
+                    <Unicode>cõstabat cum nullus antiquoꝝ de hac mentionẽ fecerit qd̑</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_585" custom="readingOrder {index:5;} abbrev {offset:3;length:2;expansion:q[ui]s;} abbrev {offset:19;length:3;expansion:t[am];} abbrev {offset:32;length:1;expansion:[et];} abbrev {offset:35;length:2;expansion:o(n);} sic {offset:10;length:1;correction:ri;} abbrev {offset:49;length:2;expansion:a[m];}">
+                <Coords points="260,1012 2063,1005 2063,975 259,982"/>
+                <Baseline points="260,1012 2063,1005"/>
+                <TextEquiv>
+                    <Unicode>si qs fecert valde tñ diminute ⁊ nõ sine magna ãbiguitate.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_589" custom="readingOrder {index:6;} abbrev {offset:43;length:3;expansion:q(uam);} abbrev {offset:1;length:2;expansion:[mm]o;} regularised {offset:0;length:1;original:i;} abbrev {offset:29;length:2;expansion:e[nt];} abbrev {offset:62;length:2;expansion:e(m);} abbrev {offset:59;length:2;expansion:[n];} abbrev {offset:54;length:2;expansion:q(ui);} regularised {offset:18;length:2;original:h;}">
+                <Coords points="260,1097 2057,1091 2057,1061 259,1067"/>
+                <Baseline points="260,1097 2057,1091"/>
+                <TextEquiv>
+                    <Unicode>jõ eligibilius michi fuit atẽus tacuisse q̃ȝ male loq̱. tãdẽ pu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_593" custom="readingOrder {index:7;} abbrev {offset:31;length:2;expansion:a[n];} abbrev {offset:54;length:2;expansion:q(ue);} abbrev {offset:42;length:2;expansion:p[er];} abbrev {offset:39;length:2;expansion:u(m);} abbrev {offset:14;length:2;expansion:p[er];} abbrev {offset:16;length:2;expansion:a(m);}">
+                <Coords points="253,1170 2057,1166 2057,1136 253,1140"/>
+                <Baseline points="253,1170 2057,1166"/>
+                <TextEquiv>
+                    <Unicode>dore coactus op̱ã dedi libros ãtiquorũ p̱quirere atqȝ revol</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_597" custom="readingOrder {index:8;} abbrev {offset:40;length:3;expansion:q(uam);} abbrev {offset:58;length:2;expansion:q[ua]r(e);} abbrev {offset:17;length:2;expansion:o(n);} abbrev {offset:54;length:2;expansion:a(m);}">
+                <Coords points="269,1252 2070,1248 2070,1218 269,1222"/>
+                <Baseline points="269,1252 2070,1248"/>
+                <TextEquiv>
+                    <Unicode>vere. quo facto nõ minus tristis evasi q̃ȝ prius fuerã. qr quos </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_601" custom="readingOrder {index:9;} abbrev {offset:11;length:2;expansion:o[m];} abbrev {offset:39;length:2;expansion:e(m);} abbrev {offset:51;length:2;expansion:e(m);} abbrev {offset:4;length:2;expansion:i[n];} abbrev {offset:1;length:2;expansion:a(m);} abbrev {offset:19;length:2;expansion:a(m);} abbrev {offset:25;length:2;expansion:a[n];} abbrev {offset:34;length:3;expansion:q(uam);} abbrev {offset:42;length:2;expansion:i[m];} regularised {offset:46;length:1;original:ss;} regularised {offset:55;length:2;original:l;} regularised {offset:67;length:1;original:ss;}">
+                <Coords points="266,1334 2063,1334 2063,1304 266,1304"/>
+                <Baseline points="266,1334 2063,1334"/>
+                <TextEquiv>
+                    <Unicode>dã ĩveni õnino eã negãtes tanq̃ȝ rẽ ĩposibilẽ allios vero ase</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_605" custom="readingOrder {index:10;} abbrev {offset:40;length:3;expansion:t[ame]n;} abbrev {offset:44;length:3;expansion:q[uo]d;} abbrev {offset:49;length:2;expansion:o[min];} abbrev {offset:1;length:2;expansion:e(m);} abbrev {offset:10;length:3;expansion:q(uam);} abbrev {offset:25;length:2;expansion:e(m);} sic {offset:30;length:1;correction:e;}">
+                <Coords points="269,1406 2067,1413 2067,1383 270,1376"/>
+                <Baseline points="269,1406 2067,1413"/>
+                <TextEquiv>
+                    <Unicode>rẽtes tanq̃ȝ rem naturalẽ. disiderans tñ qd̑ hõi naturale est</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_609" custom="readingOrder {index:11;} abbrev {offset:33;length:2;expansion:p[er];} abbrev {offset:8;length:2;expansion:o(n);} abbrev {offset:44;length:2;expansion:q[ua];} regularised {offset:50;length:2;original:l;}">
+                <Coords points="269,1505 2070,1495 2070,1465 269,1475"/>
+                <Baseline points="269,1489 2070,1495"/>
+                <TextEquiv>
+                    <Unicode>scire. nõ destiti toto conamine p̠quirere. q̃re alliqua ab anti</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_617" custom="readingOrder {index:12;} abbrev {offset:19;length:2;expansion:p(ro);} regularised {offset:24;length:1;original:ll;} sic {offset:25;length:1;correction:um;} sic {offset:29;length:1;correction:um;} sic {offset:37;length:1;correction:um;} abbrev {offset:40;length:3;expansion:p[irit]u;} abbrev {offset:45;length:2;expansion:a[n];} regularised {offset:53;length:1;original:i;} abbrev {offset:56;length:2;expansion:a[n];}">
+                <Coords points="263,1570 2083,1567 2083,1537 263,1540"/>
+                <Baseline points="263,1570 2083,1567"/>
+                <TextEquiv>
+                    <Unicode>quis didici. allia p̠ nulo meo ingenio spũ sãcto adjuvãte ad</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_621" custom="readingOrder {index:13;} abbrev {offset:34;length:2;expansion:s(ed);} abbrev {offset:56;length:2;expansion:u(m);} regularised {offset:0;length:1;original:i;} regularised {offset:2;length:1;original:v;} regularised {offset:10;length:1;original:ae;} abbrev {offset:21;length:2;expansion:a[n];} regularised {offset:25;length:1;original:ae;}">
+                <Coords points="266,1656 2080,1646 2080,1616 266,1626"/>
+                <Baseline points="266,1656 2080,1646"/>
+                <TextEquiv>
+                    <Unicode>jnueni. que non arrogãtie causa. sȝ incitationis animorũ sa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_625" custom="readingOrder {index:14;} abbrev {offset:59;length:2;expansion:d(e);} abbrev {offset:8;length:2;expansion:u(m);} abbrev {offset:29;length:2;expansion:[i]o;} abbrev {offset:2;length:2;expansion:e(m);} abbrev {offset:20;length:2;expansion:e(m);}">
+                <Coords points="269,1735 2080,1731 2080,1701 269,1705"/>
+                <Baseline points="269,1735 2080,1731"/>
+                <TextEquiv>
+                    <Unicode>piẽtiorũ ad altiorẽ cognitõnem brevius quo potuero hic d̑</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_629" custom="readingOrder {index:15;} abbrev {offset:17;length:2;expansion:p(er);} abbrev {offset:51;length:2;expansion:q[uo]q(ue);} abbrev {offset:23;length:2;expansion:u(m);} sic {offset:21;length:2;correction:ll;} abbrev {offset:33;length:2;expansion:u(m);} abbrev {offset:41;length:2;expansion:a[n];} sic {offset:37;length:1;correction:om;} regularised {offset:47;length:1;original:i;} abbrev {offset:48;length:2;expansion:[mm]o;}">
+                <Coords points="269,1817 2093,1807 2093,1777 269,1787"/>
+                <Baseline points="269,1817 2093,1807"/>
+                <TextEquiv>
+                    <Unicode>pingere decrevi. p̠ uulũ tractatũ copilãdo. jõ qȝ lectores oro</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_633" custom="readingOrder {index:16;} abbrev {offset:15;length:2;expansion:u[n];} regularised {offset:22;length:1;original:ae;} abbrev {offset:27;length:2;expansion:a[n];} abbrev {offset:50;length:2;expansion:a(m);} regularised {offset:55;length:1;original:ae;}">
+                <Coords points="276,1892 2093,1892 2093,1862 276,1862"/>
+                <Baseline points="276,1892 2093,1892"/>
+                <TextEquiv>
+                    <Unicode>atenta bona volũtate equo ãimo suscipiant. Dividã presen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_637" custom="readingOrder {index:17;} abbrev {offset:11;length:2;expansion:u(m);} abbrev {offset:1;length:2;expansion:e(m);} abbrev {offset:32;length:2;expansion:p[ri];} abbrev {offset:37;length:2;expansion:p[ar];}">
+                <Coords points="269,1971 2076,1971 2076,1941 269,1941"/>
+                <Baseline points="269,1971 2076,1971"/>
+                <TextEquiv>
+                    <Unicode>tẽ tractatũ in duas partes in pͬma p̠te theorica determina</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_641" custom="readingOrder {index:18;} sic {offset:7;length:1;correction:m;} abbrev {offset:10;length:2;expansion:[uaesti]o;} regularised {offset:35;length:2;original:l;}">
+                <Coords points="273,2050 2093,2050 2093,2020 273,2020"/>
+                <Baseline points="273,2050 2093,2050"/>
+                <TextEquiv>
+                    <Unicode>bo decen qõnes ut veritas huius mellius elucescat. In se</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_645" custom="readingOrder {index:19;} abbrev {offset:1;length:2;expansion:u[n];} abbrev {offset:36;length:2;expansion:a[n];} regularised {offset:49;length:1;original:ae;} regularised {offset:8;length:1;original:ac;}">
+                <Coords points="279,2129 2090,2129 2090,2099 279,2099"/>
+                <Baseline points="279,2129 2090,2129"/>
+                <TextEquiv>
+                    <Unicode>cũda pratica declarabitur modus curãdi primo preservan</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_649" custom="readingOrder {index:20;} abbrev {offset:24;length:1;expansion:[et];} abbrev {offset:9;length:2;expansion:u[n];}">
+                <Coords points="279,2205 2090,2198 2089,2168 279,2175"/>
+                <Baseline points="279,2205 2090,2198"/>
+                <TextEquiv>
+                    <Unicode>tius. secũdo curativus ⁊ sic erit finis.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_653" custom="readingOrder {index:21;} textStyle {offset:27;length:1;superscript:true;} regularised {offset:8;length:1;original:ae;} sic {offset:43;length:2;correction:r;}">
+                <Coords points="276,2300 2096,2293 2096,2263 276,2270"/>
+                <Baseline points="276,2300 2096,2293"/>
+                <TextEquiv>
+                    <Unicode>Prima questio. utrum in corpore humano sit rreperibile</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_657" custom="readingOrder {index:22;} abbrev {offset:5;length:2;expansion:u(m);} abbrev {offset:29;length:2;expansion:u[m];} regularised {offset:41;length:1;original:x;}">
+                <Coords points="273,2372 2103,2366 2103,2336 273,2342"/>
+                <Baseline points="273,2372 2103,2366"/>
+                <TextEquiv>
+                    <Unicode>venenũ. an sit reperibilis hũana complecio venenosa.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_661" custom="readingOrder {index:23;} abbrev {offset:23;length:3;expansion:h[abe]ns;} abbrev {offset:3;length:2;expansion:u[n];} abbrev {offset:16;length:2;expansion:u(m);} abbrev {offset:32;length:2;expansion:u(m);} abbrev {offset:9;length:2;expansion:[uaesti]o;} abbrev {offset:20;length:2;expansion:[om]o;} abbrev {offset:40;length:2;expansion:o[m];} abbrev {offset:49;length:2;expansion:e(m);} sic {offset:1;length:1;correction:e;} regularised {offset:45;length:1;original:x;}">
+                <Coords points="286,2448 2099,2451 2099,2421 286,2418"/>
+                <Baseline points="286,2448 2099,2451"/>
+                <TextEquiv>
+                    <Unicode>Sdcũda qõ. utrũ hõ hns venenũ vel cõpletionẽ veneno</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_665" custom="readingOrder {index:24;} abbrev {offset:1;length:2;expansion:a(m);}">
+                <Coords points="279,2523 2109,2523 2109,2493 279,2493"/>
+                <Baseline points="279,2523 2109,2523"/>
+                <TextEquiv>
+                    <Unicode>sã possit reperiri in latitudine sanitatis.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_669" custom="readingOrder {index:25;} abbrev {offset:49;length:2;expansion:p(er);} abbrev {offset:17;length:2;expansion:u(m);} abbrev {offset:55;length:2;expansion:u(m);} abbrev {offset:26;length:2;expansion:o[m];} abbrev {offset:6;length:2;expansion:q[uae];} sic {offset:3;length:1;correction:ti;}">
+                <Coords points="279,2609 2109,2609 2109,2579 279,2579"/>
+                <Baseline points="279,2609 2109,2609"/>
+                <TextEquiv>
+                    <Unicode>Terta q̃stio. utrũ homo hõinem possit venenare p̠ visũ.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tr_3_tl_22" custom="readingOrder {index:26;} abbrev {offset:55;length:2;expansion:p(er);} abbrev {offset:17;length:2;expansion:u(m);} sic {offset:1;length:1;correction:ua;} abbrev {offset:6;length:2;expansion:q[uae];} regularised {offset:27;length:1;original:t;} abbrev {offset:51;length:2;expansion:q[ua];}">
+                <Coords points="379,2700 404,2698 430,2698 456,2698 456,2646 430,2646 404,2646 379,2648"/>
+                <Baseline points="379,2683 404,2681 430,2681 456,2681"/>
+                <TextEquiv>
+                    <Unicode>Qurta q̃stio. utrũ fascinacio possit aliter fieri q̃m p̠ visum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_673" custom="readingOrder {index:27;} abbrev {offset:17;length:5;expansion:q[uo]dl(ibet);} abbrev {offset:14;length:2;expansion:u(m);} abbrev {offset:31;length:2;expansion:u[m];} abbrev {offset:35;length:2;expansion:u(m);} abbrev {offset:50;length:2;expansion:u(m);} abbrev {offset:61;length:2;expansion:[i]o;} sic {offset:2;length:1;correction:in;} abbrev {offset:6;length:2;expansion:q[uaesti];} abbrev {offset:26;length:2;expansion:p(us);} sic {offset:46;length:1;correction:ep;}">
+                <Coords points="273,2687 2106,2687 2106,2657 273,2657"/>
+                <Baseline points="286,2694 2106,2687"/>
+                <TextEquiv>
+                    <Unicode>Quita q̃o. utrũ qd̑lȝ corp̛  hũanũ sit suscetivũ fascinatõnis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_677" custom="readingOrder {index:28;} abbrev {offset:15;length:2;expansion:u(m);} sic {offset:2;length:1;correction:x;} abbrev {offset:7;length:2;expansion:q[uaesti];} regularised {offset:46;length:2;original:l;}">
+                <Coords points="2113,2766 279,2776 279,2806 2113,2796"/>
+                <Baseline points="2113,2766 279,2776"/>
+                <TextEquiv>
+                    <Unicode>Sesta. q̃o. utrũ veneficus possit fascinare allia animalia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_681" custom="readingOrder {index:29;} regularised {offset:2;length:1;original:ae;} regularised {offset:19;length:1;original:ae;} regularised {offset:28;length:1;original:ae;} regularised {offset:33;length:1;original:c;} sic {offset:36;length:1;correction:i;}">
+                <Coords points="286,2848 2109,2855 2109,2825 286,2818"/>
+                <Baseline points="286,2848 2109,2855"/>
+                <TextEquiv>
+                    <Unicode>preter quam illa que sunt sue spetiey</Unicode>
+                </TextEquiv>
+            </TextLine>
+        </TextRegion>
+        <TextRegion id="r_2" custom="readingOrder {index:2;} structure {type:page-number;}">
+            <Coords points="1864,2865 2072,2862 2069,2948 1873,2948"/>
+            <TextLine id="l_685" custom="readingOrder {index:0;}">
+                <Coords points="289,2934 2116,2934 2116,2904 289,2904"/>
+                <Baseline points="289,2934 2116,2934"/>
+                <TextEquiv>
+                    <Unicode>a ij</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
