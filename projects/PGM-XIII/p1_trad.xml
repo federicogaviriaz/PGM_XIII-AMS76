@@ -458,7 +458,7 @@
         <lb facs="#z_tr_1_tl_5" n="1" />
         <ab>Dios</ab>
         <lb facs="#z_l" n="2" />
-        <ab>Dioses</ab>
+        <ab>Dioses<ref type="note" target="#note1">1</ref></ab>
         <lb facs="#z_tr_1_tl_6" n="3" />
         <ab>
           Un libro sagrado llamado "La mónada" u "Octavo libro de
@@ -469,7 +469,10 @@
         <ab>acerca del Nombre Santo.        Contiene lo siguiente:</ab>
         <lb facs="#z_tr_1_tl_8" n="5" />
         <ab
-                >Permanezca usted casto por cuarentaiún días, calculando que terminen en la luna nueva (sínodo) del</ab>
+                >Permanezca usted casto por cuarentaiún días, calculando que terminen en la luna nueva (sínodo)<ref
+                        type="note"
+                        target="#note2"
+                    >2</ref> del</ab>
         <lb facs="#z_tr_1_tl_9" n="6" />
         <ab
                 >del tiempo de aries. Consiga una casa al nivel del suelo en la que en el último</ab>
@@ -478,8 +481,10 @@
         <lb facs="#z_tr_1_tl_11" n="8" />
         <ab>oriente. Erija un altar de tierra en el centro de la casa</ab>
         <lb facs="#z_tr_1_tl_12" n="9" />
-        <ab
-                >y prepare maderas de ciprés, diez estróbilos maduros, dos gallinas</ab>
+        <ab>y prepare maderas de ciprés, diez estróbilos maduros<ref
+                        type="note"
+                        target="#note3"
+                    >3</ref>, dos gallinas</ab>
         <lb facs="#z_tr_1_tl_13" n="10" />
         <ab>blancas sin daño ni manchas, y también dos lámparas</ab>
         <lb facs="#z_tr_1_tl_14" n="11" />
@@ -491,7 +496,10 @@
         <lb facs="#z_tr_1_tl_17" n="14" />
         <ab>inciensos que son connaturales al Dios. (Plagiando</ab>
         <lb facs="#z_tr_1_tl_18" n="15" />
-        <ab>de este libro, Hermes enuncia los siete inciensos</ab>
+        <ab>de este libro, Hermes enuncia los siete<ref
+                        type="note"
+                        target="#note4"
+                    >4</ref> inciensos</ab>
         <lb facs="#z_tr_1_tl_19" n="16" />
         <ab>
           en su libro sagrado, llamado "
@@ -532,7 +540,10 @@
           : mirra. Éstos son los inciensos secretos.
         </ab>
         <lb facs="#z_tr_1_tl_25" n="21" />
-        <ab>En la Llave de Moisés se indica: "Prepare yero solar</ab>
+        <ab>En la Llave de Moisés se indica: "Prepare yero solar<ref
+                        type="note"
+                        target="#note5"
+                    >5</ref></ab>
         <lb facs="#z_tr_1_tl_26" n="22" />
         <ab>
           para cada ocasión" (así llama al haba de
@@ -548,9 +559,15 @@
            lo siguiente en su libro:
         </ab>
         <lb facs="#z_tr_1_tl_28" n="24" />
-        <ab>Tome las siete flores de los siete astros, que son: mejorana</ab>
+        <ab>Tome las siete flores de los siete astros, que son: mejorana<ref
+                        type="note"
+                        target="#note6"
+                    >6</ref></ab>
         <lb facs="#z_tr_1_tl_29" n="25" />
-        <ab>[hierba] de jardín, loto, herephyllinon, narciso,</ab>
+        <ab>[hierba] de jardín, loto, herephyllinon<ref
+                        type="note"
+                        target="#note7"
+                    >7</ref>, narciso,</ab>
         <lb facs="#z_tr_1_tl_30" n="26" />
         <ab>
           alhelí y rosa. Triture estas flores
@@ -597,14 +614,22 @@
         <lb facs="#z_tr_1_tl_43" n="39" />
         <ab>donde escribirá el Gran Nombre con siete sonidos. En lugar de </ab>
         <lb facs="#z_tr_1_tl_44" n="40" />
-        <ab
-                >hacer un chasquido con los labios o un silbido, dibuje en el medio</ab>
+        <ab>hacer un chasquido<ref
+                        type="note"
+                        target="#note8"
+                    >8</ref> con los labios o un silbido, dibuje en el medio</ab>
         <lb facs="#z_tr_1_tl_45" n="41" />
         <ab>un cocodrilo con rostro de halcón y, sobre él,</ab>
         <lb facs="#z_tr_1_tl_46" n="42" />
-        <ab>al eneamorfo. Pues el cocodrilo con rostro de halcón</ab>
+        <ab>al eneamorfo<ref
+                        type="note"
+                        target="#note9"
+                    >9</ref>. Pues el cocodrilo con rostro de halcón</ab>
         <lb facs="#z_tr_1_tl_47" n="43" />
-        <ab>de halcón saluda al Dios en los cuatro equinoccios </ab>
+        <ab>de halcón saluda al Dios en los cuatro equinoccios<ref
+                        type="note"
+                        target="#note10"
+                    >10</ref> </ab>
         <lb facs="#z_tr_1_tl_48" n="44" />
         <ab
                 >con el chasquido de los labios. Pues tomando aliento chasquea los labios desde la profundidad</ab>
@@ -613,14 +638,43 @@
     <back>
       <div type="notes">
         <head>Notas</head>
-        <note xml:id="nota1" n="1">
-          <p>Texto de la primera nota a pie de página.</p>
+        <note xml:id="note1" n="1">
+          <p
+                    >Indica Betz (1986) que Θεοι es un encabezado común en inscripciones religiosas en Atenas y su esfera de influencia, y que su uso acá tiene pretensiones filosóficas y literarias. El singular se explica a partir de la predominancia monoteista luego del gobierno del emperador Constantino, momento en el que este texto fue copiado.</p>
         </note>
-        <note xml:id="nota2" n="2">
-          <p>Texto de la segunda nota a pie de página.</p>
+        <note xml:id="note2" n="2">
+          <p
+                    >σύνοδος, encuentro y en astrología conjunción, Preisendanz y Betz lo traducen como "luna nueva". Se entiende que uno de los sínodos astrológicos que pueden ocurrir en el periodo de un signo solar es precisamente algún fenómeno lunar. En una aparición posterior, queda claro (v.) que es la luna nueva. Sin embargo, podría referirse en este momento a cualquier otra conjunción astrológica.</p>
         </note>
-        <note xml:id="nota3" n="3">
-          <p>Texto de la tercera nota a pie de página.</p>
+        <note xml:id="note3" n="3">
+          <p
+                    >δεξιός, diestro y por extensión hábil o apropiado. Acá se entiende como un estróbilo maduro, es decir lleno de semillas como lo traduce Betz.</p>
+        </note>
+        <note xml:id="note4" n="4">
+          <p
+                    >En el papiro parece haber una sigma sin signo de numeración. Si fuera una sigma, sería el número seis que no corresponde a los siete perfumes que nos van a enumerar. Preisendanz entiende que es un error y lo traduce como el número siete y acá se recoge esta lectura.</p>
+        </note>
+        <note xml:id="note5" n="5">
+          <p
+                    >Vicia ervilia. vid.: https://es.wikipedia.org/wiki/Vicia_ervilia</p>
+        </note>
+        <note xml:id="note6" n="6">
+          <p
+                    >Siguiendo la lectura de Daniel, el comienzo de la línea puede ser la continuación de la flor escrita en la línea anterior (la mejorana), o la palabra κοινός: común. La segunda flor es entonces poco clara, κῆπος significa jardín o plantación. En cualquiera de los dos casos es difícil saber la flor exacta a la que se refiere, pero se puede suponer que se trata de una hierba común en un jardín.</p>
+        </note>
+        <note xml:id="note7" n="7">
+          <p>Hierba desconocida.</p>
+        </note>
+        <note xml:id="note8" n="8">
+          <p
+                    >En griego ποππυσμός, una onomatopeya del chasquido de los labios, es decir hacer "pop". Habrá de imaginarse esta acción cada vez que se traduzca al español por chasquidos. De otra parte, es interesante cómo se introduce esta acción ritual sin explicación: "En vez de hacer el chasquido... ", como si se tratara de una práctica conocida y esperada por aquel que realiza el ritual.</p>
+        </note>
+        <note xml:id="note9" n="9">
+          <p
+                    >Betz(1986) en su nota a este segmento indica que el cocodrilo con cabeza de halcón aparece en inscripciones en una combinación de los dioses Sebek y horus. Sobre el eneamorfo, nos aclara que se trata de una combinación de nueve dioses que conforman el cuerpo de un solo Dios.</p>
+        </note>
+        <note xml:id="note10" n="10">
+          <p>Es decir, los dos solsticios y los dos equinoccios.</p>
         </note>
       </div>
     </back>
