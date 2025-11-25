@@ -784,9 +784,6 @@ def build_header(meta: Dict[str, Any]) -> ET.Element:
         ET.SubElement(publicationStmt, qn("publisher")).text = meta["publisher"]
     if meta.get("pub_date"):
         ET.SubElement(publicationStmt, qn("date")).text = meta["pub_date"]
-    ET.SubElement(
-        publicationStmt, qn("p")
-    ).text = "Digital edition for research and display purposes."
 
     # sourceDesc
     sourceDesc = ET.SubElement(fileDesc, qn("sourceDesc"))
@@ -849,6 +846,7 @@ def build_header(meta: Dict[str, Any]) -> ET.Element:
     # encodingDesc
     encodingDesc = ET.SubElement(teiHeader, qn("encodingDesc"))
     ET.SubElement(encodingDesc, qn("p")).text = (
+        "Digital edition for research and display purposes. "
         "Converted from PAGE-XML with full semantic markup including "
         "abbreviations, corrections, regularisations, numbers, person names, place names, "
         "references, and text styling."
@@ -910,9 +908,11 @@ def convert_page_to_tei(page_root: ET.Element, meta: Dict[str, Any]) -> ET.Eleme
                 image_fn = f"images/{image_fn}"
             graphic.set("url", image_fn)
         if width:
-            graphic.set("width", width)
+            # Add 'px' unit suffix for TEI validation
+            graphic.set("width", f"{width}px")
         if height:
-            graphic.set("height", height)
+            # Add 'px' unit suffix for TEI validation
+            graphic.set("height", f"{height}px")
 
         # Page break
         ET.SubElement(div, qn("pb"), {"n": str(page_idx), "facs": f"#p{page_idx}"})
@@ -972,8 +972,10 @@ def convert_page_to_tei(page_root: ET.Element, meta: Dict[str, Any]) -> ET.Eleme
             z.set(ET.QName(XML_NS, "id"), zid)
             if points:
                 z.set("points", points)
+            # Store baseline in a note element (baseline attribute not allowed on zone)
             if baseline:
-                z.set("baseline", baseline)
+                baseline_note = ET.SubElement(z, qn("note"), {"type": "baseline"})
+                baseline_note.text = baseline
 
             # Line break with number
             ET.SubElement(div, qn("lb"), {"facs": f"#{zid}", "n": str(line_num)})
