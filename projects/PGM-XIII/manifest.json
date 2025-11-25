@@ -1,0 +1,199 @@
+{
+  "id": "PGM-XIII",
+  "name": "PGM XIII (AMS 76)",
+  "description": "Papiro Griego Mágico XIII, actualmente en el Rijksmuseum van Oudheden de Leiden. Edición diplomática de Robert W. Daniel (1991) y traducción al español.",
+  "metadata": {
+    "author": "Anonymous",
+    "editor": "Robert W. Daniel",
+    "collection": "PGM",
+    "institution": "Rijksmuseum van Oudheden",
+    "repository": "https://www.rmo.nl/en/collection/search-collection/collection-piece/?object=18783",
+    "country": "Netherlands",
+    "settlement": "Leiden",
+    "language": "Ancient Greek",
+    "date_range": "3rd-4th century CE",
+    "siglum": "PGM XIII",
+    "old_catalog": "J395",
+    "museum_id": "AMS76",
+    "origin_place": "Egypt"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "label": "Page 1",
+      "has_diplomatic": true,
+      "has_translation": true,
+      "has_image": true
+    },
+    {
+      "number": 2,
+      "label": "Page 2",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 3,
+      "label": "Page 3",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 4,
+      "label": "Page 4",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 5,
+      "label": "Page 5",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 6,
+      "label": "Page 6",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 7,
+      "label": "Page 7",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 8,
+      "label": "Page 8",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 9,
+      "label": "Page 9",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 10,
+      "label": "Page 10",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 11,
+      "label": "Page 11",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 12,
+      "label": "Page 12",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 13,
+      "label": "Page 13",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 14,
+      "label": "Page 14",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 15,
+      "label": "Page 15",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 16,
+      "label": "Page 16",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 17,
+      "label": "Page 17",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 18,
+      "label": "Page 18",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 19,
+      "label": "Page 19",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 20,
+      "label": "Page 20",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 21,
+      "label": "Page 21",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 22,
+      "label": "Page 22",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 23,
+      "label": "Page 23",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 24,
+      "label": "Page 24",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    },
+    {
+      "number": 25,
+      "label": "Page 25",
+      "has_diplomatic": false,
+      "has_translation": false,
+      "has_image": true
+    }
+  ],
+  "version": "1.0.0",
+  "last_updated": "2025-11-24"
+}
