@@ -13,12 +13,13 @@ Features:
 - Applies PAGE TextLine @custom inline annotations:
     abbrev{offset;length;expansion} -> <choice><abbr>…</abbr><expan>…</expan></choice>
     sic{offset;length;correction}   -> <choice><sic>…</sic><corr>…</corr></choice>
+    regularised{offset;length;original} -> <choice><orig>…</orig><reg>…</reg></choice>
     num{offset;length;type;value}   -> <num type="…" value="…">…</num>
     person{...}                      -> <persName type="…" ref="…">…</persName>
     place{...}                       -> <placeName><country>…</country></placeName>
     ref{offset;length;type;target}  -> <ref type="…" target="…">…</ref>
     unclear{offset;length;reason}   -> <unclear reason="…">…</unclear>
-    textStyle{bold/italic/underline} -> <hi rend="…">…</hi>
+    textStyle{bold/italic/underline/superscript/subscript} -> <hi rend="…">…</hi>
 - Automatically prefixes image paths with "images/"
 - Language-aware based on edition type (grc for diplomatic, es for translation)
 
@@ -126,7 +127,7 @@ def parse_custom_ops(custom_str: str) -> List[Dict[str, Any]]:
 
         # Special handling for textStyle
         if kind == "textStyle":
-            for k in ("bold", "italic", "underline"):
+            for k in ("bold", "italic", "underline", "superscript", "subscript"):
                 if k in op:
                     op[k] = "true" if parse_bool(op[k]) else "false"
 
@@ -190,6 +191,10 @@ def build_styled_nodes(parent: ET.Element, text: str, style_ops: List[Dict[str, 
             rend.append("italic")
         if op.get("underline", "false") == "true":
             rend.append("underline")
+        if op.get("superscript", "false") == "true":
+            rend.append("superscript")
+        if op.get("subscript", "false") == "true":
+            rend.append("subscript")
         if not rend:
             continue
         ranges.append((op["offset"], op["end"], " ".join(rend)))
@@ -215,9 +220,32 @@ def build_choice_with_styles(
     inner_style_ops: List[Dict[str, Any]],
     global_offset: int,
 ) -> ET.Element:
-    """Build <choice> element with abbreviation or correction."""
+    """Build <choice> element with abbreviation, correction, or regularisation."""
     choice = ET.Element(qn("choice"))
-    a_tag = "abbr" if kind == "abbrev" else "sic"
+
+    if kind == "abbrev":
+        a_tag = "abbr"
+        b_tag = "expan"
+        first_text = witness_text
+        second_text = alt_text
+    elif kind == "sic":
+        a_tag = "sic"
+        b_tag = "corr"
+        first_text = witness_text
+        second_text = alt_text
+    elif kind == "regularised":
+        # For regularised, witness_text is the regularised form (goes in <reg>)
+        # and alt_text (from 'original' attribute) is the original form (goes in <orig>)
+        a_tag = "orig"
+        b_tag = "reg"
+        first_text = alt_text  # original goes first in <orig>
+        second_text = witness_text  # regularised goes second in <reg>
+    else:
+        a_tag = "orig"
+        b_tag = "reg"
+        first_text = witness_text
+        second_text = alt_text
+
     a = ET.SubElement(choice, qn(a_tag))
 
     # Adjust styles relative to this span
@@ -231,11 +259,15 @@ def build_choice_with_styles(
             cp["end"] = cp["end"] - global_offset
             adj_styles.append(cp)
 
-    build_styled_nodes(a, witness_text, adj_styles)
-
-    b_tag = "expan" if kind == "abbrev" else "corr"
-    b = ET.SubElement(choice, qn(b_tag))
-    b.text = alt_text or ""
+    # For regularised, styles apply to the second element (reg), not the first (orig)
+    if kind == "regularised":
+        a.text = first_text or ""
+        b = ET.SubElement(choice, qn(b_tag))
+        build_styled_nodes(b, second_text, adj_styles)
+    else:
+        build_styled_nodes(a, first_text, adj_styles)
+        b = ET.SubElement(choice, qn(b_tag))
+        b.text = second_text or ""
 
     return choice
 
@@ -424,7 +456,11 @@ def build_inline_nodes_for_line(text: str, ops: List[Dict[str, Any]]) -> List[An
     Returns list of strings and ET.Elements.
     """
     # Separate operations by type
-    choice_ops = [o for o in ops if o["kind"] in ("abbrev", "sic") and o["length"] > 0]
+    choice_ops = [
+        o
+        for o in ops
+        if o["kind"] in ("abbrev", "sic", "regularised") and o["length"] > 0
+    ]
     num_ops = [o for o in ops if o["kind"] == "num" and o["length"] > 0]
     person_ops = [o for o in ops if o["kind"] == "person" and o["length"] > 0]
     place_ops = [o for o in ops if o["kind"] == "place" and o["length"] > 0]
@@ -436,6 +472,7 @@ def build_inline_nodes_for_line(text: str, ops: List[Dict[str, Any]]) -> List[An
     known_kinds = {
         "abbrev",
         "sic",
+        "regularised",
         "num",
         "person",
         "place",
@@ -490,8 +527,13 @@ def build_inline_nodes_for_line(text: str, ops: List[Dict[str, Any]]) -> List[An
         ]
 
         # Build appropriate element
-        if w["kind"] in ("abbrev", "sic"):
-            alt = w.get("expansion") if w["kind"] == "abbrev" else w.get("correction")
+        if w["kind"] in ("abbrev", "sic", "regularised"):
+            if w["kind"] == "abbrev":
+                alt = w.get("expansion")
+            elif w["kind"] == "sic":
+                alt = w.get("correction")
+            else:  # regularised
+                alt = w.get("original")
             el = build_choice_with_styles(
                 w["kind"], witness, alt or "", inner_styles, start
             )
@@ -808,7 +850,7 @@ def build_header(meta: Dict[str, Any]) -> ET.Element:
     encodingDesc = ET.SubElement(teiHeader, qn("encodingDesc"))
     ET.SubElement(encodingDesc, qn("p")).text = (
         "Converted from PAGE-XML with full semantic markup including "
-        "abbreviations, corrections, numbers, person names, place names, "
+        "abbreviations, corrections, regularisations, numbers, person names, place names, "
         "references, and text styling."
     )
 
